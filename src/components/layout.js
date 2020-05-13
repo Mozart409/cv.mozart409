@@ -60,7 +60,7 @@ export default ({ children, title = 'CV | Amadeus Mader' }) => (
                     About
                   </a>
                 </Link>
-                </nav>
+              </nav>
             </div>
             <div className='flex flex-shrink-0 p-4'>
               <a href='#' className='flex-shrink-0 block w-full group'>
