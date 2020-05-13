@@ -3,7 +3,6 @@ import { nodemailer } from 'nodemailer'
 import { sgTransport } from 'nodemailer-sendgrid-transport'
 import Layout from '../components/layout'
 
-
 export default () => {
   const [status, setStatus] = useState({
     submitted: false,
@@ -60,41 +59,41 @@ export default () => {
     const text = await res.text()
     handleResponse(res.status, text)
   }
-return (
-  <Layout title='Contact us'>
-    <div>Contact</div>
-    <main>
-      <form onSubmit={handleOnSubmit}>
-        <label htmlFor="email">Email</label>
-        <input
-          id="email"
-          type="email"
-          onChange={handleOnChange}
-          required
-          value={inputs.email}
-        />
-        <label htmlFor="message">Message</label>
-        <textarea
-          id="message"
-          onChange={handleOnChange}
-          required
-          value={inputs.message}
-        />
-        <button type="submit" disabled={status.submitting}>
-          {!status.submitting
-            ? !status.submitted
-              ? 'Submit'
-              : 'Submitted'
-            : 'Submitting...'}
-        </button>
-      </form>
-      {status.info.error && (
-        <div className="error">Error: {status.info.msg}</div>
-      )}
-      {!status.info.error && status.info.msg && (
-        <div className="success">{status.info.msg}</div>
-      )}
-    </main>
-  </Layout>
-)
+  return (
+    <Layout title='Contact us'>
+      <div>Contact</div>
+      <main>
+        <form onSubmit={handleOnSubmit}>
+          <label htmlFor='email'>Email</label>
+          <input
+            id='email'
+            type='email'
+            onChange={handleOnChange}
+            required
+            value={inputs.email}
+          />
+          <label htmlFor='message'>Message</label>
+          <textarea
+            id='message'
+            onChange={handleOnChange}
+            required
+            value={inputs.message}
+          />
+          <button type='submit' disabled={status.submitting}>
+            {!status.submitting
+              ? !status.submitted
+                ? 'Submit'
+                : 'Submitted'
+              : 'Submitting...'}
+          </button>
+        </form>
+        {status.info.error && (
+          <div className='error'>Error: {status.info.msg}</div>
+        )}
+        {!status.info.error && status.info.msg && (
+          <div className='success'>{status.info.msg}</div>
+        )}
+      </main>
+    </Layout>
+  )
 }

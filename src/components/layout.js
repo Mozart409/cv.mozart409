@@ -42,6 +42,25 @@ export default ({ children, title = 'CV | Amadeus Mader' }) => (
                   </a>
                 </Link>
 
+                <Link href='/'>
+                  <a className='flex items-center px-2 py-2 mt-1 text-sm font-medium text-white group leading-5 rounded-md hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white transition ease-in-out duration-150'>
+                    <svg
+                      className='w-6 h-6 mr-3 text-white group-hover:text-gray-800 group-focus:text-gray-800 transition ease-in-out duration-150'
+                      stroke='currentColor'
+                      fill='none'
+                      viewBox='0 0 24 24'
+                    >
+                      <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth='2'
+                        d='M1,4 L23,4 L23,20 L1,20 L1,4 Z M1,5 L12,13.5 L23,5'
+                      />
+                    </svg>
+                    Contact
+                  </a>
+                </Link>
+
                 <Link href='/about'>
                   <a className='flex items-center px-2 py-2 mt-1 text-sm font-medium text-white group leading-5 rounded-md hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white transition ease-in-out duration-150'>
                     <svg
