@@ -4,12 +4,26 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier-standard --format && rustywind --write .",
+    "lint": "prettier-standard --lint"
   },
   "dependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "@tailwindcss/ui": "^0.3.0",
+    "autoprefixer": "^9.7.6",
     "next": "latest",
+    "next-page-transitions": "^1.0.0-beta.2",
+    "nodemailer": "^6.4.6",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "postcss-import": "^12.0.1",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "tailwindcss": "^1.4.6"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-standard": "^16.3.0",
+    "rustywind": "^0.6.5"
+  }
 }
