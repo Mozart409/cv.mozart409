@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import { nodemailer } from 'nodemailer'
-import { sgTransport } from 'nodemailer-sendgrid-transport'
 import Layout from '../components/layout'
 
 export default () => {
@@ -61,25 +59,42 @@ export default () => {
   }
   return (
     <Layout title='Contact us'>
-      <div>Contact</div>
+      <div className='my-12 text-center'>
+        <h2 className='text-3xl font-extrabold tracking-tight text-gray-900 leading-9 sm:text-4xl sm:leading-10'>
+          Kontakt
+        </h2>
+      </div>
       <main>
         <form onSubmit={handleOnSubmit}>
-          <label htmlFor='email'>Email</label>
+          <label className='text-gray-700' htmlFor='email'>
+            Email
+          </label>
           <input
+            className='block w-full mt-1 form-input'
             id='email'
             type='email'
             onChange={handleOnChange}
             required
             value={inputs.email}
           />
-          <label htmlFor='message'>Message</label>
-          <textarea
-            id='message'
-            onChange={handleOnChange}
-            required
-            value={inputs.message}
-          />
-          <button type='submit' disabled={status.submitting}>
+          <div className='mt-4'>
+            <label className='text-gray-700' htmlFor='message'>
+              Message
+            </label>
+            <textarea
+              className='block w-full mt-1 form-textarea'
+              id='message'
+              rows='3'
+              onChange={handleOnChange}
+              required
+              value={inputs.message}
+            />
+          </div>
+          <button
+            className='w-full py-2 mt-4 text-white bg-indigo-600 rounded'
+            type='submit'
+            disabled={status.submitting}
+          >
             {!status.submitting
               ? !status.submitted
                 ? 'Submit'
