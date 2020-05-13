@@ -84,7 +84,7 @@ export default () => {
             <textarea
               className='block w-full mt-1 form-textarea'
               id='message'
-              rows='3'
+              rows='7'
               onChange={handleOnChange}
               required
               value={inputs.message}
