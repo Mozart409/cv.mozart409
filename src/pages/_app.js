@@ -1,4 +1,7 @@
 import '../css/style.css'
+require('@openfonts/ibm-plex-sans-condensed_all')
+require('@openfonts/ibm-plex-mono_all')
+require('@openfonts/ibm-plex-sans_all')
 // This default export is required in a new `pages/_app.js` file.
 import { PageTransition } from 'next-page-transitions'
 export default function MyApp ({ Component, pageProps }) {
@@ -33,6 +36,37 @@ export default function MyApp ({ Component, pageProps }) {
         .loading-indicator-enter-active {
           opacity: 1;
           transition: opacity ${TIMEOUT}ms;
+        }
+
+        strong,
+        h1,
+        h1 > *,
+        h2,
+        h2 > * {
+          font-family: 'IBM Plex Sans';
+          font-display: auto;
+        }
+
+        h3,
+        h3 > * h4,
+        h4 > *,
+        h5,
+        h5 > *,
+        h6,
+        h6 > * {
+          font-family: 'IBM Plex Sans Condensed';
+          font-display: auto;
+        }
+        p,
+        p > *,
+        span,
+        span > *,
+        pre,
+        pre > *,
+        code,
+        code > * {
+          font-family: 'IBM Plex Mono';
+          font-display: auto;
         }
       `}</style>
     </>

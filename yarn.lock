@@ -1021,6 +1021,21 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
+"@openfonts/ibm-plex-mono_all@^1.44.1":
+  version "1.44.1"
+  resolved "https://registry.yarnpkg.com/@openfonts/ibm-plex-mono_all/-/ibm-plex-mono_all-1.44.1.tgz#c82a65e4f33f5fd73443111a2161724bd2e8f7a0"
+  integrity sha512-rXt1voZjMG1DmSxItrcvVh9QTAwGmnetELYmZM4KTBzg13ndMzg33hQ4t1rnhR/nGblxDfl/wgzHVInO5rPtlw==
+
+"@openfonts/ibm-plex-sans-condensed_all@^1.44.1":
+  version "1.44.1"
+  resolved "https://registry.yarnpkg.com/@openfonts/ibm-plex-sans-condensed_all/-/ibm-plex-sans-condensed_all-1.44.1.tgz#2bb16774ac70a55bae3eb0ed6517748d4dca65ec"
+  integrity sha512-Gzl4roYjUJU6W7UFdsduYoiIqCvRpZZ3hMpFTfddghomQJGIGUtBuuGXGxJNjyVnUFGki1pUlr1KkYFWk8iT8Q==
+
+"@openfonts/ibm-plex-sans_all@^1.44.1":
+  version "1.44.1"
+  resolved "https://registry.yarnpkg.com/@openfonts/ibm-plex-sans_all/-/ibm-plex-sans_all-1.44.1.tgz#1876ba5e382023b28fb6f15f56fdbb9f47c05f01"
+  integrity sha512-dF/+/R1YeS1HwTx/V1IkE3EvbeMvGZ9Bqb2U7SXHhZX24fgpL4jfyZkdGYaPDUZmDqf0mdMkv+1plKIxHQe/zw==
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"

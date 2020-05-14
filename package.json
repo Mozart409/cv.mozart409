@@ -9,6 +9,9 @@
     "lint": "prettier-standard --lint"
   },
   "dependencies": {
+    "@openfonts/ibm-plex-mono_all": "^1.44.1",
+    "@openfonts/ibm-plex-sans-condensed_all": "^1.44.1",
+    "@openfonts/ibm-plex-sans_all": "^1.44.1",
     "@sendgrid/mail": "^7.1.0",
     "@tailwindcss/custom-forms": "^0.2.1",
     "@tailwindcss/ui": "^0.3.0",

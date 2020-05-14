@@ -11,8 +11,8 @@ export default ({ children, title = 'CV | Amadeus Mader' }) => (
     </Head>
     <div className='flex flex-col min-h-screen font-sans text-gray-900'>
       <div className='flex h-screen overflow-hidden bg-gray-100'>
-        <div className='flex flex-shrink-0'>
-          <div className='flex flex-col w-64 bg-teal-700 border-r border-white'>
+        <div className='flex-shrink-0 sm:flex hidden'>
+          <div className='flex flex-col w-64 bg-gray-900 border-r border-white'>
             <div className='flex flex-col flex-1 h-0 pt-5 pb-4 overflow-y-auto'>
               <div className='flex items-center px-4'>
                 <img
@@ -42,7 +42,7 @@ export default ({ children, title = 'CV | Amadeus Mader' }) => (
                   </a>
                 </Link>
 
-                <Link href='/'>
+                <Link href='/contact'>
                   <a className='flex items-center px-2 py-2 mt-1 text-sm font-medium text-white group leading-5 rounded-md hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white transition ease-in-out duration-150'>
                     <svg
                       className='w-6 h-6 mr-3 text-white group-hover:text-gray-800 group-focus:text-gray-800 transition ease-in-out duration-150'
