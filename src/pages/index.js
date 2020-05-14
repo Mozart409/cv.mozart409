@@ -3,42 +3,44 @@ import Layout from '../components/layout'
 const Techs = () => (
   <div className=''>
     <div className='px-4 py-12 mx-auto max-w-screen-xl sm:px-6 lg:py-16 lg:px-8'>
-      <p className='text-base font-semibold text-center text-gray-600 uppercase leading-6 font-sans'>
-        Häufig genutzte Technologien.
-      </p>
+      <h2 className='text-xl font-extrabold text-gray-900 leading-9 sm:text-2xl sm:leading-10'>
+        Häufig genutzte Technologien
+      </h2>
       <div className='mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8'>
-        <div className='flex justify-center px-8 py-8 col-span-1 bg-white'>
+        <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
           <img className='max-h-12' src='/Gatsby.svg' alt='Gatsbyjs' />
         </div>
-        <div className='flex justify-center px-8 py-8 col-span-1 bg-white'>
+        <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
           <img
             className='max-h-12'
             src='/zeit-black-full-logo.svg'
             alt='Zeit.co'
           />
         </div>
-        <div className='flex justify-center px-8 py-8 col-span-1 bg-white'>
+        <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
           <img className='max-h-12' src='/nextjs-black-logo.svg' alt='Nextjs' />
         </div>
-        <div className='flex justify-center px-8 py-8 col-span-1 bg-white'>
+        <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
           <img className='max-h-12' src='/tailwind.svg' alt='Tailwind' />
         </div>
-        <div className='flex justify-center px-8 py-8 col-span-1 bg-white'>
+        <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
           <img
             className='max-h-12'
             src='/cloudinary_logo_for_white_bg.svg'
             alt='Cloudinary'
           />
         </div>
-        <div className='flex justify-center px-8 py-8 col-span-1 bg-white'>
+        <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
           <img className='max-h-12' src='/Mirage.svg' alt='Mirage' />
         </div>
-        <div className='flex justify-center px-8 py-8 col-span-1 bg-white'>
-          <img className='max-h-12' src='/datocms_logo.svg' alt="DatoCms" />
+        <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
+          <img className='max-h-12' src='/datocms_logo.svg' alt='DatoCms' />
         </div>
-        <div className='flex justify-center px-8 py-8 col-span-1 bg-white'>
-          <img className='max-h-12' src='/graphql.svg' alt="GraphQL" />
-          <span className="text-graphql text-lg my-auto font-bold tracking-widest">GraphQL</span>
+        <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
+          <img className='max-h-12' src='/graphql.svg' alt='GraphQL' />
+          <span className='my-auto text-lg font-bold tracking-widest text-graphql'>
+            GraphQL
+          </span>
         </div>
       </div>
     </div>
@@ -112,9 +114,10 @@ const BerufeCard = () => (
               <div>
                 <p className='mt-2 font-sans text-sm text-gray-500 leading-5 sm:mt-0 '>
                   Erfolgreiche Planung und Umsetzung der SEO optimierten
-                  Websites inklusive Kundenkommukation. Entwurf, Abstimmung und
-                  Umsetzung des Designs. Agile Projektumsetzung mit Jira und
-                  Confluence von Atlassian
+                  Websites, teilweise mit CMS (GraphQL Anbindung zu WordPress
+                  oder DatoCMS), inklusive Kundenkommukation. Entwurf,
+                  Abstimmung und Umsetzung des Designs. Agile Projektumsetzung
+                  mit Jira und Confluence von Atlassian.
                 </p>
               </div>
             </div>
@@ -398,6 +401,58 @@ const PraktikaCard = () => (
   </div>
 )
 
+const Skills = () => (
+  <div className='pt-12 sm:pt-16'>
+    <div className='px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8'>
+      <div className='max-w-4xl'>
+        <h2 className='text-xl font-extrabold text-gray-900 leading-9 sm:text-2xl sm:leading-10'>
+          Meine Expertisen
+        </h2>
+      </div>
+    </div>
+    <div className='pb-12 mt-10 sm:pb-16'>
+      <div className='relative'>
+        <div className='absolute inset-0 h-1/2'></div>
+        <div className='relative px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8'>
+          <div className='max-w-4xl mx-auto'>
+            <dl className='bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-3'>
+              <div className='flex flex-col p-6 text-center border-b border-gray-100 sm:border-0 sm:border-r'>
+                <dt
+                  className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
+                  id='item-1'
+                >
+                  HTML
+                </dt>
+                <dd
+                  className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
+                  aria-describedby='item-1'
+                >
+                  4/5
+                </dd>
+              </div>
+              <div className='flex flex-col p-6 text-center border-t border-b border-gray-100 sm:border-0 sm:border-l sm:border-r'>
+                <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'>
+                  CSS
+                </dt>
+                <dd className='order-1 text-5xl font-extrabold leading-none text-indigo-600'>
+                  4/5
+                </dd>
+              </div>
+              <div className='flex flex-col p-6 text-center border-t border-gray-100 sm:border-0 sm:border-l'>
+                <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'>
+                  JS
+                </dt>
+                <dd className='order-1 text-5xl font-extrabold leading-none text-indigo-600'>
+                  4/5
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+)
 const AusbildungCard = () => (
   <div className='mt-8'>
     <div className='px-4 py-5 bg-white border-b border-gray-200 shadow sm:px-6'>
@@ -407,15 +462,15 @@ const AusbildungCard = () => (
     </div>
     <div className='overflow-hidden bg-white shadow sm:rounded-b-md'>
       <ul>
-      <li>
+        <li>
           <div className='block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out'>
             <div className='px-4 py-4 sm:px-6'>
               <div className='flex items-center justify-between'>
                 <div className='text-sm font-medium text-indigo-600 truncate leading-5'>
-                Medieninformatik Bachelor
+                  Medieninformatik Bachelor
                 </div>
                 <div className='flex flex-shrink-0 ml-2'>
-                  <span className='inline-flex px-2 text-xs font-semibold text-red-800 bg-red-100 rounded-full leading-5'>
+                  <span className='inline-flex px-2 text-xs font-semibold text-gray-800 bg-gray-100 rounded-full leading-5'>
                     Abgebrochen
                   </span>
                 </div>
@@ -470,10 +525,10 @@ const AusbildungCard = () => (
             <div className='px-4 py-4 sm:px-6'>
               <div className='flex items-center justify-between'>
                 <div className='text-sm font-medium text-indigo-600 truncate leading-5'>
-                Audio Production Bachelor Program
+                  Audio Production Bachelor Program
                 </div>
                 <div className='flex flex-shrink-0 ml-2'>
-                  <span className='inline-flex px-2 text-xs font-semibold text-red-800 bg-red-100 rounded-full leading-5'>
+                  <span className='inline-flex px-2 text-xs font-semibold text-gray-800 bg-gray-100 rounded-full leading-5'>
                     Abgebrochen
                   </span>
                 </div>
@@ -579,8 +634,8 @@ const AusbildungCard = () => (
                 </div>
               </div>
               <div>
-                <p className='mt-2 font-sans text-sm text-green-500 font-bold leading-5 tracking-wide sm:mt-0 '>
-                Abschluss: Fachhochschulreife
+                <p className='mt-2 font-sans text-sm font-bold tracking-wide text-green-500 leading-5 sm:mt-0 '>
+                  Abschluss: Fachhochschulreife
                 </p>
               </div>
             </div>
@@ -641,7 +696,6 @@ const AusbildungCard = () => (
                   <span>Von 10.2013 - 01.2014</span>
                 </div>
               </div>
-              
             </div>
           </div>
         </li>
@@ -657,6 +711,7 @@ export default () => (
     <BerufeCard />
     <PraktikaCard />
     <AusbildungCard />
+    <Skills />
     <Techs />
   </Layout>
 )

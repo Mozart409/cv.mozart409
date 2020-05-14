@@ -2,8 +2,8 @@ module.exports = {
   purge: ['./src/**/*.css', './src/**/*.js', './src/**/*.jsx'],
   theme: {
     extend: {
-      colors:{
-        'graphql':'#e10098'
+      colors: {
+        graphql: '#e10098'
       }
     }
   },
