@@ -798,7 +798,7 @@ const AusbildungCard = () => (
                       clipRule='evenodd'
                     />
                   </svg>
-                  <span>Von 10.2013 - 01.2014</span>
+                  <span>Von 10.2013 - 09.2014</span>
                 </div>
               </div>
             </div>
