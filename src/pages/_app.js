@@ -1,9 +1,9 @@
 import '../css/style.css'
+import { PageTransition } from 'next-page-transitions'
 require('@openfonts/ibm-plex-sans-condensed_all')
 require('@openfonts/ibm-plex-mono_all')
 require('@openfonts/ibm-plex-sans_all')
-// This default export is required in a new `pages/_app.js` file.
-import { PageTransition } from 'next-page-transitions'
+
 export default function MyApp ({ Component, pageProps }) {
   const TIMEOUT = 400
   return (

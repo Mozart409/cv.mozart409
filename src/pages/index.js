@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout from '../components/layout'
 
 const Techs = () => (
@@ -32,6 +33,9 @@ const Techs = () => (
         </div>
         <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
           <img className='max-h-12' src='/Mirage.svg' alt='Mirage' />
+        </div>
+        <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
+          <img className='max-h-12' src='/Fauna.png' alt='Fauna' />
         </div>
         <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
           <img className='max-h-12' src='/datocms_logo.svg' alt='DatoCms' />
@@ -402,52 +406,153 @@ const PraktikaCard = () => (
 )
 
 const Skills = () => (
-  <div className='pt-12 sm:pt-16'>
-    <div className='px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8'>
-      <div className='max-w-4xl'>
-        <h2 className='text-xl font-extrabold text-gray-900 leading-9 sm:text-2xl sm:leading-10'>
-          Meine Expertisen
-        </h2>
-      </div>
-    </div>
-    <div className='pb-12 mt-10 sm:pb-16'>
-      <div className='relative'>
-        <div className='absolute inset-0 h-1/2'></div>
-        <div className='relative px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8'>
-          <div className='max-w-4xl mx-auto'>
-            <dl className='bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-3'>
-              <div className='flex flex-col p-6 text-center border-b border-gray-100 sm:border-0 sm:border-r'>
-                <dt
-                  className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
-                  id='item-1'
-                >
-                  HTML
-                </dt>
-                <dd
-                  className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
-                  aria-describedby='item-1'
-                >
-                  4/5
-                </dd>
-              </div>
-              <div className='flex flex-col p-6 text-center border-t border-b border-gray-100 sm:border-0 sm:border-l sm:border-r'>
-                <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'>
-                  CSS
-                </dt>
-                <dd className='order-1 text-5xl font-extrabold leading-none text-indigo-600'>
-                  4/5
-                </dd>
-              </div>
-              <div className='flex flex-col p-6 text-center border-t border-gray-100 sm:border-0 sm:border-l'>
-                <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'>
-                  JS
-                </dt>
-                <dd className='order-1 text-5xl font-extrabold leading-none text-indigo-600'>
-                  4/5
-                </dd>
-              </div>
-            </dl>
-          </div>
+  <div className=''>
+    <div className='px-4 py-12 mx-auto max-w-screen-xl sm:px-6 lg:py-16 lg:px-8'>
+      <h2 className='text-xl font-extrabold text-gray-900 leading-9 sm:text-2xl sm:leading-10'>
+        Meine Expertisen
+      </h2>
+      <div className='mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8'>
+        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
+          <dt
+            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
+            id='item-1'
+          >
+            HTML
+          </dt>
+          <dd
+            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
+            aria-describedby='item-1'
+          >
+            5/5
+          </dd>
+        </div>
+        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
+          <dt
+            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
+            id='item-1'
+          >
+            CSS
+          </dt>
+          <dd
+            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
+            aria-describedby='item-1'
+          >
+            5/5
+          </dd>
+        </div>
+        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
+          <dt
+            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
+            id='item-1'
+          >
+            JS
+          </dt>
+          <dd
+            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
+            aria-describedby='item-1'
+          >
+            4/5
+          </dd>
+        </div>
+        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
+          <dt
+            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
+            id='item-1'
+          >
+            React
+          </dt>
+          <dd
+            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
+            aria-describedby='item-1'
+          >
+            4/5
+          </dd>
+        </div>
+
+        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
+          <dt
+            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
+            id='item-1'
+          >
+            TailwindCSS
+          </dt>
+          <dd
+            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
+            aria-describedby='item-1'
+          >
+            4/5
+          </dd>
+        </div>
+        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
+          <dt
+            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
+            id='item-1'
+          >
+            NextJS
+          </dt>
+          <dd
+            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
+            aria-describedby='item-1'
+          >
+            4/5
+          </dd>
+        </div>
+        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
+          <dt
+            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
+            id='item-1'
+          >
+            GatsbyJS
+          </dt>
+          <dd
+            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
+            aria-describedby='item-1'
+          >
+            4/5
+          </dd>
+        </div>
+        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
+          <dt
+            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
+            id='item-1'
+          >
+            FaunaDB
+          </dt>
+          <dd
+            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
+            aria-describedby='item-1'
+          >
+            3/5
+          </dd>
+        </div>
+        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
+          <dt
+            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
+            id='item-1'
+          >
+            Firebase
+          </dt>
+          <dd
+            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
+            aria-describedby='item-1'
+          >
+            3/5
+          </dd>
+        </div>
+
+        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
+          <dt
+            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
+            id='item-1'
+          >
+            GraphQL
+          </dt>
+          <dd
+            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
+            aria-describedby='item-1'
+          >
+            3/5
+          </dd>
         </div>
       </div>
     </div>
@@ -708,7 +813,9 @@ export default () => (
     <h1 className='text-4xl font-bold text-gray-900 font-Inter leading-7 sm:text-3xl sm:leading-9 sm:truncate'>
       Curriculum Vitae
     </h1>
-    <BerufeCard />
+    <a id='#Berufe'>
+      <BerufeCard />
+    </a>
     <PraktikaCard />
     <AusbildungCard />
     <Skills />
