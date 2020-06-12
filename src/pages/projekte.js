@@ -3,11 +3,15 @@ import Link from 'next/link'
 import Layout from '../components/layout'
 
 const Techs = () => (
-  <div className=''>
-    <div className='px-4 py-12 mx-auto max-w-screen-xl sm:px-6 lg:py-16 lg:px-8'>
+  <div className='grid grid-cols-1 max-w-7xl'>
+    <div className='px-4 py-12 mx-auto max-w-7xl font-Inter sm:px-6 lg:py-16 lg:px-8'>
       <h2 className='text-xl font-extrabold text-gray-900 leading-9 sm:text-2xl sm:leading-10'>
         Häufig genutzte Technologien
       </h2>
+      <p className='font-sans text-sm text-gray-500'>
+        Hier habe ich noch ein paar andere Frameworks/Tools/Libraries
+        aufgezählt, die ich für kommerzielle und private Projekte verwende.
+      </p>
       <div className='mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8'>
         <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
           <img className='max-h-12' src='/Gatsby.svg' alt='Gatsbyjs' />
@@ -70,7 +74,7 @@ const Projekt1 = () => (
     <div>
       <div className='px-4 py-5 sm:p-6'>
         Anforderung
-        <ul className='list-disc list-inside'>
+        <ul className='font-sans text-sm text-gray-500 list-disc list-inside'>
           <li>
             Preise aus CSV einlesen und mehrfach auf der Webseite darstellen
           </li>
@@ -81,7 +85,7 @@ const Projekt1 = () => (
       </div>
       <div className='px-4 py-4 border-t border-gray-200 sm:px-6'>
         Umsetzung
-        <ul className='list-disc list-inside'>
+        <ul className='font-sans text-sm text-gray-500 list-disc list-inside'>
           <li>
             Preise in CSV werden mit GraphQL eingelesen und dem Frontend zur
             Verfügung gestellt.
@@ -198,7 +202,7 @@ const Projekt2 = () => (
       </div>
       <div className='px-4 py-5 sm:p-6'>
         Anforderung
-        <ul className='list-disc list-inside'>
+        <ul className='font-sans text-sm text-gray-500 list-disc list-inside'>
           <li>Content von Joomla auf neues Cms übertragen</li>
           <li>Tracking DSGVO Konform</li>
           <li>Einfache bearbeitung von Bildern und Texten</li>
@@ -207,7 +211,7 @@ const Projekt2 = () => (
       </div>
       <div className='px-4 py-4 border-t border-gray-200 sm:px-6'>
         Umsetzung
-        <ul className='list-disc list-inside'>
+        <ul className='font-sans text-sm text-gray-500 list-disc list-inside'>
           <li>DatoCms eingesetz</li>
           <li>
             Tracking wird mit{' '}
