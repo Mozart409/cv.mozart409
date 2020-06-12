@@ -36,6 +36,9 @@ const Techs = () => (
           <img className='max-h-12' src='/Mirage.svg' alt='Mirage' />
         </div>
         <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
+          <img className='max-h-12' src='/firebase.png' alt='Firebase' />
+        </div>
+        <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
           <img className='max-h-12' src='/Fauna.png' alt='Fauna' />
         </div>
         <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
@@ -64,75 +67,245 @@ const Projekt1 = () => (
     <div className='px-4 py-5 border-b border-gray-200 sm:px-6'>
       Autovermietung
     </div>
-    <div className='px-4 py-5 sm:p-6'>
-      Anforderung
-      <ul className='list-disc list-inside'>
-        <li>
-          Preise aus CSV einlesen und mehrfach auf der Webseite darstellen
-        </li>
-        <li>Tracking DSGVO Konform</li>
-        <li>Mehrere Autos sind auf der alten Platform vorhanden</li>
-        <li>Umstieg auf schnellere Webtechnologien</li>
-      </ul>
+    <div>
+      <div className='px-4 py-5 sm:p-6'>
+        Anforderung
+        <ul className='list-disc list-inside'>
+          <li>
+            Preise aus CSV einlesen und mehrfach auf der Webseite darstellen
+          </li>
+          <li>Tracking DSGVO Konform</li>
+          <li>Mehrere Autos sind auf der alten Platform vorhanden</li>
+          <li>Umstieg auf schnellere Webtechnologien</li>
+        </ul>
+      </div>
+      <div className='px-4 py-4 border-t border-gray-200 sm:px-6'>
+        Umsetzung
+        <ul className='list-disc list-inside'>
+          <li>
+            Preise in CSV werden mit GraphQL eingelesen und dem Frontend zur
+            Verfügung gestellt.
+          </li>
+          <li>
+            Tracking wird mit{' '}
+            <a
+              href='https://metomic.io'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Metomic
+            </a>{' '}
+            und Google Tag Manager realisiert{' '}
+          </li>
+          <li>Von Wordpress auf Gatsby umgestiegen</li>
+        </ul>
+      </div>
     </div>
-    <div className='px-4 py-4 border-t border-gray-200 sm:px-6'>
-      Umsetzung
-      <ul className='list-disc list-inside'>
-        <li>
-          Preise in CSV werden mit GraphQL eingelesen und dem Frontend zur
-          Verfügung gestellt.
-        </li>
-        <li>
-          Tracking wird mit{' '}
-          <a
-            className='text-indigo-600'
-            href='https://metomic.io'
-            target='_blank'
-            rel='noref norel'
-          >
-            Metomic{' '}
-          </a>
-          und Google Tag Manager realisiert{' '}
-        </li>
-        <li>Von Wordpress auf Gatsby umgestiegen</li>
-      </ul>
+    <div className='px-2 py-2 sm:px-6'>
+      <div className=''>
+        <div className='pb-12 mt-10 bg-white sm:pb-16'>
+          <div className='relative'>
+            <div className='relative mx-auto max-w-screen-xl'>
+              <div className='max-w-4xl mx-auto'>
+                <dl className='bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-3'>
+                  <div className='flex flex-col p-2 text-center border-b border-gray-100 sm:border-0 sm:border-r'>
+                    <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'>
+                      <span className='my-auto text-lg font-bold tracking-widest text-graphql'>
+                        GraphQL
+                      </span>
+                    </dt>
+                    <dd className='order-1 '>
+                      <img
+                        className='mx-auto max-h-12'
+                        src='/graphql.svg'
+                        alt='GraphQL'
+                      />
+                    </dd>
+                  </div>
+
+                  <div className='flex flex-col p-2 text-center border-b border-gray-100 sm:border-0 sm:border-r'>
+                    <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'></dt>
+                    <dd className='order-1 my-auto'>
+                      <img
+                        className='mx-auto max-h-12'
+                        src='/metomic.svg'
+                        alt='Metomic.io'
+                      />
+                    </dd>
+                  </div>
+                  <div className='flex flex-col p-2 text-center border-b border-gray-100 sm:border-0 sm:border-r'>
+                    <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'></dt>
+                    <dd className='order-1 my-auto'>
+                      <img
+                        className='inline-block mx-auto align-middle max-h-12'
+                        src='/tailwind.svg'
+                        alt='Tailwind'
+                      />
+                    </dd>
+                  </div>
+                  <div className='flex flex-col p-2 text-center border-b border-gray-100 sm:border-0 sm:border-r'>
+                    <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'>
+                      <span className='my-auto font-sans text-lg font-bold tracking-widest text-gtm'>
+                        Google Tag Manager
+                      </span>
+                    </dt>
+                    <dd className='order-1 '>
+                      <img
+                        className='mx-auto max-h-12'
+                        src='/gtm.svg'
+                        alt='Google Tag Manager'
+                      />
+                    </dd>
+                  </div>
+                  <div className='flex flex-col p-2 text-center border-b border-gray-100 sm:border-0 sm:border-r'>
+                    <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'></dt>
+                    <dd className='order-1 my-auto'>
+                      <img
+                        className='mx-auto max-h-12'
+                        src='/Gatsby.svg'
+                        alt='Gatsbyjs'
+                      />
+                    </dd>
+                  </div>
+                  <div className='flex flex-col p-2 text-center border-b border-gray-100 sm:border-0 sm:border-r'>
+                    <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'>
+                      <span className='my-auto text-lg font-bold tracking-widest text-gitactions'>
+                        Github Actions
+                      </span>
+                    </dt>
+                    <dd className='order-1 '>
+                      <img
+                        className='mx-auto max-h-12'
+                        src='/GithubActions.svg'
+                        alt='Github Actions'
+                      />
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 )
 const Projekt2 = () => (
   <div className='mt-8 overflow-hidden bg-white rounded-lg shadow'>
-    <div className='px-4 py-5 border-b border-gray-200 sm:px-6'>Unternehmen</div>
-    <div className='px-4 py-5 sm:p-6'>
-      Anforderung
-      <ul className='list-disc list-inside'>
-        <li>
-          Content von Joomla auf neues Cms übertragen
-        </li>
-        <li>Tracking DSGVO Konform</li>
-        <li>Einfache bearbeitung von Bildern und Texten</li>
-        <li>Umstieg auf schnellere Webtechnologien</li>
-      </ul>
+    <div>
+      <div className='px-4 py-5 border-b border-gray-200 sm:px-6'>
+        Unternehmen
+      </div>
+      <div className='px-4 py-5 sm:p-6'>
+        Anforderung
+        <ul className='list-disc list-inside'>
+          <li>Content von Joomla auf neues Cms übertragen</li>
+          <li>Tracking DSGVO Konform</li>
+          <li>Einfache bearbeitung von Bildern und Texten</li>
+          <li>Umstieg auf schnellere Webtechnologien</li>
+        </ul>
+      </div>
+      <div className='px-4 py-4 border-t border-gray-200 sm:px-6'>
+        Umsetzung
+        <ul className='list-disc list-inside'>
+          <li>DatoCms eingesetz</li>
+          <li>
+            Tracking wird mit{' '}
+            <a
+              href='https://metomic.io'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Metomic
+            </a>{' '}
+            und Google Tag Manager realisiert{' '}
+          </li>
+          <li>Von Joomla auf Gatsby mit DatoCms umgestiegen</li>
+        </ul>
+      </div>
     </div>
-    <div className='px-4 py-4 border-t border-gray-200 sm:px-6'>
-      Umsetzung
-      <ul className='list-disc list-inside'>
-        <li>
-          DatoCms eingesetz
-        </li>
-        <li>
-          Tracking wird mit{' '}
-          <a
-            className='text-indigo-600'
-            href='https://metomic.io'
-            target='_blank'
-            rel='noref norel'
-          >
-            Metomic{' '}
-          </a>
-          und Google Tag Manager realisiert{' '}
-        </li>
-        <li>Von Joomla auf Gatsby mit DatoCms umgestiegen</li>
-      </ul>
+    <div className='px-2 py-2 sm:px-6'>
+      <div className=''>
+        <div className='pb-12 mt-10 bg-white sm:pb-16'>
+          <div className='relative'>
+            <div className='relative mx-auto max-w-screen-xl'>
+              <div className='max-w-4xl mx-auto'>
+                <dl className='bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-3'>
+                  <div className='flex flex-col p-2 text-center border-b border-gray-100 sm:border-0 sm:border-r'>
+                    <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'>
+                      <span className='my-auto text-lg font-bold tracking-widest text-graphql'>
+                        GraphQL
+                      </span>
+                    </dt>
+                    <dd className='order-1 '>
+                      <img
+                        className='mx-auto max-h-12'
+                        src='/graphql.svg'
+                        alt='GraphQL'
+                      />
+                    </dd>
+                  </div>
+
+                  <div className='flex flex-col p-2 text-center border-b border-gray-100 sm:border-0 sm:border-r'>
+                    <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'></dt>
+                    <dd className='order-1 my-auto'>
+                      <img
+                        className='mx-auto max-h-12'
+                        src='/metomic.svg'
+                        alt='Metomic.io'
+                      />
+                    </dd>
+                  </div>
+                  <div className='flex flex-col p-2 text-center border-b border-gray-100 sm:border-0 sm:border-r'>
+                    <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'></dt>
+                    <dd className='order-1 my-auto'>
+                      <img
+                        className='inline-block mx-auto align-middle max-h-12'
+                        src='/tailwind.svg'
+                        alt='Tailwind'
+                      />
+                    </dd>
+                  </div>
+                  <div className='flex flex-col p-2 text-center border-b border-gray-100 sm:border-0 sm:border-r'>
+                    <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'>
+                      <span className='my-auto font-sans text-lg font-bold tracking-widest text-gtm'>
+                        Google Tag Manager
+                      </span>
+                    </dt>
+                    <dd className='order-1 '>
+                      <img
+                        className='mx-auto max-h-12'
+                        src='/gtm.svg'
+                        alt='Google Tag Manager'
+                      />
+                    </dd>
+                  </div>
+                  <div className='flex flex-col p-2 text-center border-b border-gray-100 sm:border-0 sm:border-r'>
+                    <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'></dt>
+                    <dd className='order-1 my-auto'>
+                      <img
+                        className='mx-auto max-h-12'
+                        src='/Gatsby.svg'
+                        alt='Gatsbyjs'
+                      />
+                    </dd>
+                  </div>
+                  <div className='flex flex-col p-2 text-center border-b border-gray-100 sm:border-0 sm:border-r'>
+                    <dt className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'></dt>
+                    <dd className='order-1 my-auto'>
+                      <img
+                        className='mx-auto max-h-12'
+                        src='/datocms_logo.svg'
+                        alt='DatoCms'
+                      />
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 )
@@ -160,13 +333,12 @@ const Projekt3 = () => (
         <li>
           Tracking wird mit{' '}
           <a
-            className='text-indigo-600'
             href='https://metomic.io'
             target='_blank'
-            rel='noref norel'
+            rel='noopener noreferrer'
           >
-            Metomic{' '}
-          </a>
+            Metomic
+          </a>{' '}
           und Google Tag Manager realisiert{' '}
         </li>
         <li>Von Wordpress auf Gatsby umgestiegen</li>

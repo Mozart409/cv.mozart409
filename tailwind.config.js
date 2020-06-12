@@ -3,7 +3,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        graphql: '#e10098'
+        graphql: '#e10098',
+        gitactions: '#2088FF',
+        gtm: '#246fdb'
       }
     }
   },

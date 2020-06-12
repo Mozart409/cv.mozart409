@@ -2,4 +2,8 @@
 
 @tailwind components;
 
+a {
+  @apply text-indigo-600 font-mono;
+}
+
 @tailwind utilities;

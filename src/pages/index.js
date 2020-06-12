@@ -29,14 +29,21 @@ const BeginningCard = () => {
               <div className='px-4 py-4 sm:px-6'>
                 <div>
                   <p className='mt-2 font-sans text-sm text-gray-500 leading-5 sm:mt-0 '>
-                    Herzlich willkommen auf meinem digitalen Lebenslauf. Ich bin ich {myAge} und lebe in {Location}. In meiner
-                    Jugend hat mir meine Mutter das Programmieren mit Visual
-                    Basic beigebracht als wir in einem Urlaub in Istanbul waren.
-                    Danach verbrachte ich viele Stunden damit 
-                    kleinere Programme wie zum Beispiel ein Programm das die
-                    Hintergrundfarbe jede Sekunde ändert oder eins das durch
-                    Drücken eines Knopfs die IP Adresse lokal und im Netz
-                    abfragt zu entwerfen.
+                    Herzlich willkommen auf meinem digitalen Lebenslauf. Ich bin
+                    ich {myAge} und lebe in {Location}. In meiner Jugend hat mir
+                    meine Mutter das Programmieren mit{' '}
+                    <a
+                      href='https://docs.microsoft.com/de-de/dotnet/visual-basic/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      Visual Basic
+                    </a>{' '}
+                    beigebracht als wir in einem Urlaub in Istanbul waren.
+                    Danach verbrachte ich viele Stunden damit kleinere Programme
+                    wie zum Beispiel ein Programm das die Hintergrundfarbe jede
+                    Sekunde ändert oder eins das durch Drücken eines Knopfs die
+                    IP Adresse lokal und im Netz abfragt zu entwerfen.
                   </p>{' '}
                   <br />
                   <p className='mt-2 font-sans text-sm text-gray-500 leading-5 sm:mt-0 '>
@@ -46,10 +53,11 @@ const BeginningCard = () => {
                     durfte 10 Schulstunden dafür verwenden. Am Anfang waren
                     meine Mitschüler gar nicht begeistert, jedoch Stück für
                     Stück konnte Ich sie mit meinem selbst entworfenen
-                    Unterrichtsmaterial überzeugen. Ich bin meiner
-                    Informatik Lehrerin sehr Dankbar für diese Zeit und Sie
-                    stellt mir für mein Engagement ein Zertifikat aus (Dokument
-                    auf Anfrage). Und so wurde meine Leidenschaft und Interresse für diesen Beruf geweckt.
+                    Unterrichtsmaterial überzeugen. Ich bin meiner Informatik
+                    Lehrerin sehr Dankbar für diese Zeit und Sie stellt mir für
+                    mein Engagement ein Zertifikat aus (Dokument auf Anfrage).
+                    Und so wurde meine Leidenschaft und Interresse für diesen
+                    Beruf geweckt.
                   </p>
                 </div>
               </div>
