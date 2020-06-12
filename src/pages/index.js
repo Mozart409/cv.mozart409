@@ -84,11 +84,13 @@ const RecentCard = () => {
             <div className='block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out'>
               <div className='px-4 py-4 sm:px-6'>
                 <div>
-                  <p className='mt-2 font-sans text-sm text-gray-500 leading-5 sm:mt-0 '></p>
+                  <p className='mt-2 font-sans text-sm text-gray-500 leading-5 sm:mt-0'>
+                  Mein Spezialgebiet sind blitzschnelle SEO optimierte Webseiten, die ich in bestehende Systeme und Prozesse integrieren kann. Dadurch bleibt die gewohnte Umgebung für Mitarbeiter erhalten. Aber auch wenn ein komplett neues System gefragt ist, bringe Ich die nötige Erfahrung mit, um das Projekt erfolgreich umzusetzen. Jedes Projekt plane und organisiere ich individuell mit meinem Kunden. Dafür arbeite ich agil mit Jira und Confluence, einem Projektmangament- und Dokumentationstool. Ich starte jedes Projekt mit einer Konkurrenzanalyse, mit dem Ziel Ihre aktuelle Sichtbarkeit im Vergleich zu Ihren Mitstreiter auszuwerten. Nach dieser Analyse erarbeite ich eine spezischische Strategie, diese kann neben der eigentlichen SEO optimierung auch ein frisches Layout für die Webseite beinhalten. Den aktuellen Stand können Sie dann über meine SEO Bereichte täglich abrufen. Die von mir erstellte Webseite wird nach mehreren Tests live geschaltet und kann ihre SEO Wirkung im Netz entfalten. Um das Ergebnis zu sicher beobachte und optimiere ich die Webseite bis das gewünschte Resultat erziehlt ist. Am Ende des Projekts ziehe ich mich als Administrator zurück und übergebe Ihnen alles. Brauchen Sie weiterhin Unterstützung stehe Ich dann auch gerne zu Verfügung. 
                   {/* <br />
                   <p className='mt-2 font-sans text-sm text-gray-500 leading-5 sm:mt-0 '>
                  
                   </p> */}
+                  </p>
                 </div>
               </div>
             </div>
