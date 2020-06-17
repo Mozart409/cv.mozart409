@@ -128,7 +128,7 @@ export default () => (
     <h1 className='text-4xl font-bold text-gray-900 font-Inter leading-7 sm:text-3xl sm:leading-9 sm:truncate'>
       Amadeus Mader
     </h1>
-    <div className='grid grid-cols-1 lg:grid-cols-2 gap-2'>
+    <div className='grid grid-cols-1 xl:grid-cols-2 gap-2'>
       <img
         className='mt-8 rounded max-w-content'
         src='/amadeus.webp'

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Head from 'next/head'
+import MobileMenu from './mobileMenu'
 
 export default ({ children, title = 'CV | Amadeus Mader' }) => (
   <div>
@@ -9,8 +10,12 @@ export default ({ children, title = 'CV | Amadeus Mader' }) => (
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       <link rel='icon' href='/favicon.png' />
     </Head>
+
     <div className='flex flex-col min-h-screen font-sans text-gray-900'>
       <div className='flex h-screen overflow-hidden bg-gray-100'>
+        <div className='flex-shrink-0 flex sm:hidden'>
+          <MobileMenu />
+        </div>
         <div className='flex-shrink-0 hidden sm:flex'>
           <div className='flex flex-col w-64 bg-gray-900 border-r border-white'>
             <div className='flex flex-col flex-1 h-0 pt-5 pb-4 overflow-y-auto'>
