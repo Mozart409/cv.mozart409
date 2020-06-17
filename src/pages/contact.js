@@ -63,7 +63,9 @@ export default () => {
         Kontakt
       </h1>
       <div className='mx-auto mt-6 sm:max-w-xl md:max-w-3xl lg:max-w-5xl'>
-        <main>
+        <p>Ich freue mich auf Ihre <a href="mailto:hey@mozart409.space">Email</a>.</p>
+        
+        {/* <main>
           <form onSubmit={handleOnSubmit}>
             <label className='text-gray-700' htmlFor='email'>
               Email
@@ -108,7 +110,7 @@ export default () => {
             <div className='success'>{status.info.msg}</div>
           )}
         </main>
-      </div>
+       */}</div>
     </Layout>
   )
 }
