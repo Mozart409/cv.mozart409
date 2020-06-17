@@ -62,8 +62,9 @@ export default () => {
       <h1 className='text-4xl font-bold text-gray-900 font-Inter leading-7 sm:text-3xl sm:leading-9 sm:truncate'>
         Kontakt
       </h1>
-      <div className='mx-auto mt-6 sm:max-w-xl md:max-w-3xl lg:max-w-5xl'>
-        <p>Ich freue mich auf Ihre <a href="mailto:hey@mozart409.space">Email</a>.</p>
+      <p>Ich freue mich auf Ihre <a href="mailto:hey@mozart409.space">Email</a>.</p>
+      <div className='mx-auto'>
+        
         
         {/* <main>
           <form onSubmit={handleOnSubmit}>
