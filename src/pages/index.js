@@ -57,7 +57,7 @@ const BeginningCard = () => {
                     Unterrichtsmaterial überzeugen. Ich bin meiner Informatik
                     Lehrerin sehr Dankbar für diese Zeit und Sie stellt mir für
                     mein Engagement ein Zertifikat aus (Dokument auf Anfrage).
-                    Und so wurde meine Leidenschaft und Interresse für diesen
+                    Und so wurde meine Leidenschaft und Interesse für diesen
                     Beruf geweckt.
                   </p>
                 </div>
