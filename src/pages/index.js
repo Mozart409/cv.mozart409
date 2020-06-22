@@ -42,7 +42,7 @@ const BeginningCard = () => {
                     </a>{' '}
                     beigebracht als wir in einem Urlaub in Istanbul waren.
                     Danach verbrachte ich viele Stunden damit kleinere Programme
-                    wie zum Beispiel ein Programm das die Hintergrundfarbe jede
+                    wie zum Beispiel ein Programm, das die Hintergrundfarbe jede
                     Sekunde ändert oder eins das durch Drücken eines Knopfs die
                     IP Adresse lokal und im Netz abfragt zu entwerfen.
                   </p>{' '}
