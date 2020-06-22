@@ -92,21 +92,21 @@ const RecentCard = () => {
                     System gefragt ist, bringe Ich die nötige Erfahrung mit, um
                     das Projekt erfolgreich umzusetzen. Jedes Projekt plane und
                     organisiere ich individuell mit meinem Kunden. Dafür arbeite
-                    ich agil mit Jira und Confluence, einem Projektmangament-
+                    ich agil mit Jira und Confluence, einem Projektmanagement-
                     und Dokumentationstool. Ich starte jedes Projekt mit einer
                     Konkurrenzanalyse, mit dem Ziel Ihre aktuelle Sichtbarkeit
                     im Vergleich zu Ihren Mitstreiter auszuwerten. Nach dieser
-                    Analyse erarbeite ich eine spezischische Strategie, diese
-                    kann neben der eigentlichen SEO optimierung auch ein
+                    Analyse erarbeite ich eine spezifische Strategie, diese
+                    kann neben der eigentlichen SEO Optimierung auch ein
                     frisches Layout für die Webseite beinhalten. Den aktuellen
-                    Stand können Sie dann über meine SEO Bereichte täglich
+                    Stand können Sie dann über meine SEO Berichte täglich
                     abrufen. Die von mir erstellte Webseite wird nach mehreren
-                    Tests live geschaltet und kann ihre SEO Wirkung im Netz
+                    Tests live geschaltet und kann Ihre SEO Wirkung im Netz
                     entfalten. Um das Ergebnis zu sichern beobachte und
                     optimiere ich die Webseite bis das gewünschte Resultat
-                    erziehlt ist. Am Ende des Projekts ziehe ich mich als SEO
-                    Experte zurück und übergebe Ihnen alles. Brauchen Sie
-                    weiterhin Unterstützung stehe Ich dann auch gerne zu
+                    erzielt ist. Am Ende des Projekts ziehe ich mich als SEO
+                    Experte zurück und übergebe Ihnen das Projekt. Brauchen Sie
+                    weiterhin Unterstützung stehe Ich dann auch gerne zur
                     Verfügung.
                     {/* <br />
                   <p className='mt-2 font-sans text-sm text-gray-500 leading-5 sm:mt-0 '>
