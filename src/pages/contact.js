@@ -130,7 +130,7 @@ const Projekt1 = () => (
   </div>
 )
 
-export default () => {
+const contact = () => {
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -250,3 +250,5 @@ export default () => {
     </Layout>
   )
 }
+
+export default contact

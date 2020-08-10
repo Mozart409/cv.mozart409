@@ -96,18 +96,17 @@ const RecentCard = () => {
                     und Dokumentationstool. Ich starte jedes Projekt mit einer
                     Konkurrenzanalyse, mit dem Ziel Ihre aktuelle Sichtbarkeit
                     im Vergleich zu Ihren Mitstreiter auszuwerten. Nach dieser
-                    Analyse erarbeite ich eine spezifische Strategie, diese
-                    kann neben der eigentlichen SEO Optimierung auch ein
-                    frisches Layout für die Webseite beinhalten. Den aktuellen
-                    Stand können Sie dann über meine SEO Berichte täglich
-                    abrufen. Die von mir erstellte Webseite wird nach mehreren
-                    Tests live geschaltet und kann Ihre SEO Wirkung im Netz
-                    entfalten. Um das Ergebnis zu sichern beobachte und
-                    optimiere ich die Webseite bis das gewünschte Resultat
-                    erzielt ist. Am Ende des Projekts ziehe ich mich als SEO
-                    Experte zurück und übergebe Ihnen das Projekt. Brauchen Sie
-                    weiterhin Unterstützung stehe Ich dann auch gerne zur
-                    Verfügung.
+                    Analyse erarbeite ich eine spezifische Strategie, diese kann
+                    neben der eigentlichen SEO Optimierung auch ein frisches
+                    Layout für die Webseite beinhalten. Den aktuellen Stand
+                    können Sie dann über meine SEO Berichte täglich abrufen. Die
+                    von mir erstellte Webseite wird nach mehreren Tests live
+                    geschaltet und kann Ihre SEO Wirkung im Netz entfalten. Um
+                    das Ergebnis zu sichern beobachte und optimiere ich die
+                    Webseite bis das gewünschte Resultat erzielt ist. Am Ende
+                    des Projekts ziehe ich mich als SEO Experte zurück und
+                    übergebe Ihnen das Projekt. Brauchen Sie weiterhin
+                    Unterstützung stehe Ich dann auch gerne zur Verfügung.
                     {/* <br />
                   <p className='mt-2 font-sans text-sm text-gray-500 leading-5 sm:mt-0 '>
                  
@@ -123,19 +122,107 @@ const RecentCard = () => {
   )
 }
 
-export default () => (
+const Facts = () => (
+  <div className=''>
+    <div className='max-w-screen-xl mx-auto pt-6 pb-16 sm:pt-8 sm:pb-20 px-4 sm:px-6 lg:pt-12 lg:pb-28 lg:px-8'>
+      <h2 className='text-2xl leading-9 font-extrabold text-gray-900'>
+        Meine Qualifikationen
+      </h2>
+      <div className='mt-6 border-t-2 border-gray-100 pt-10'>
+        <dl className='md:grid md:grid-cols-2 md:gap-8'>
+          <div>
+            <div>
+              <dt className='text-lg leading-6 font-medium text-gray-900'>
+                Projekterfahrung mit JavaScript, React, GatsbyJS, NextJs, HTML5,
+                CSS3, GraphQL
+              </dt>
+            </div>
+            <div className='mt-12'>
+              <dt className='text-lg leading-6 font-medium text-gray-900'>
+                Fundierte Kenntnisse zu ReactJS, GatsbyJS, NextJs
+              </dt>
+            </div>
+            <div className='mt-12'>
+              <dt className='text-lg leading-6 font-medium text-gray-900'>
+                Fundierte Kenntnisse zu SEO, SEA und SEO optimiertem content
+              </dt>
+            </div>
+            <div className='mt-12'>
+              <dt className='text-lg leading-6 font-medium text-gray-900'>
+                Erfahrungen zu NodeJS, Jest and React Testing Library
+              </dt>
+            </div>
+            <div className='mt-12'>
+              <dt className='text-lg leading-6 font-medium text-gray-900'>
+                Erfahrungen zu Endlichen Zustandsmaschinen (xstate)
+              </dt>
+            </div>
+            <div className='mt-12'>
+              <dt className='text-lg leading-6 font-medium text-gray-900'>
+                Praxiserfahrung im Einsatz agiler Methoden: Scrum, Kanban
+              </dt>
+            </div>
+            <div className='mt-12'>
+              <dt className='text-lg leading-6 font-medium text-gray-900'>
+                Erfahrung mit REST APIs und Serverless Functions
+              </dt>
+            </div>
+          </div>
+          <div className='mt-12 md:mt-0'>
+            <div>
+              <dt className='text-lg leading-6 font-medium text-gray-900'>
+                Fundierte Kenntnisse mit GraphQL
+              </dt>
+            </div>
+            <div className='mt-12'>
+              <dt className='text-lg leading-6 font-medium text-gray-900'>
+                Fundierte Kenntnisse zu CMS Systemen (Wordpress, DatoCMS, Ghots,
+                Contentful, etc.)
+              </dt>
+            </div>
+            <div className='mt-12'>
+              <dt className='text-lg leading-6 font-medium text-gray-900'>
+                Erfahrung mit AWS und GCP
+              </dt>
+            </div>
+            <div className='mt-12'>
+              <dt className='text-lg leading-6 font-medium text-gray-900'>
+                Fundierte Kenntnisse mit Git und CI/CD
+              </dt>
+            </div>
+            <div className='mt-12'>
+              <dt className='text-lg leading-6 font-medium text-gray-900'>
+                Erfahrung mit clean Code und Test Driven Development
+              </dt>
+            </div>
+            <div className='mt-12'>
+              <dt className='text-lg leading-6 font-medium text-gray-900'>
+                Sicher im Umgang mit Kunden und Projektplanung
+              </dt>
+            </div>
+            <div className='mt-12'>
+              <dt className='text-lg leading-6 font-medium text-gray-900'>
+                Fließende Deutsch- und Englischkenntnisse
+              </dt>
+            </div>
+            <div className='mt-12'>
+              <dt className='text-lg leading-6 font-medium text-gray-900'>
+                Praxiserfahrung im Responsive Design
+              </dt>
+            </div>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </div>
+)
+
+const index = () => (
   <Layout>
     <h1 className='text-4xl font-bold text-gray-900 font-Inter leading-7 sm:text-3xl sm:leading-9 sm:truncate'>
       Amadeus Mader
     </h1>
-    <div className='grid grid-cols-1 xl:grid-cols-2 gap-2'>
-      <img
-        className='mt-8 rounded max-w-content'
-        src='/amadeus.webp'
-        alt='Amadeus'
-      />
-      <BeginningCard />
-      <RecentCard />
-    </div>
+    <Facts />
   </Layout>
 )
+export default index

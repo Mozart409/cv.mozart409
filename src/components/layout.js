@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import MobileMenu from './mobileMenu'
 
-export default ({ children, title = 'CV | Amadeus Mader' }) => (
+const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
   <div>
     <Head>
       <title>{title}</title>
@@ -131,3 +131,4 @@ export default ({ children, title = 'CV | Amadeus Mader' }) => (
     </div>
   </div>
 )
+export default Layout

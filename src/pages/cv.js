@@ -758,7 +758,7 @@ const AusbildungCard = () => (
     </div>
   </div>
 )
-export default () => (
+const cv = () => (
   <Layout>
     <h1 className='text-4xl font-bold text-gray-900 font-Inter leading-7 sm:text-3xl sm:leading-9 sm:truncate'>
       Curriculum Vitae
@@ -771,3 +771,5 @@ export default () => (
     <Skills />
   </Layout>
 )
+
+export default cv
