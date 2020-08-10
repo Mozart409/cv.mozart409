@@ -137,77 +137,74 @@ const Facts = () => (
                 CSS3, GraphQL
               </dt>
             </div>
-            <div className='mt-12'>
+            <div className='mt-4'>
               <dt className='text-lg leading-6 font-medium text-gray-900'>
                 Fundierte Kenntnisse zu ReactJS, GatsbyJS, NextJs
               </dt>
             </div>
-            <div className='mt-12'>
+            <div className='mt-4'>
               <dt className='text-lg leading-6 font-medium text-gray-900'>
-                Fundierte Kenntnisse zu SEO, SEA und SEO optimiertem content
+                Fundierte Kenntnisse zur Suchmaschinen-Optimierung
               </dt>
             </div>
-            <div className='mt-12'>
+            <div className='mt-4'>
               <dt className='text-lg leading-6 font-medium text-gray-900'>
-                Erfahrungen zu NodeJS, Jest and React Testing Library
+                Erfahrungen zu NodeJS
               </dt>
             </div>
-            <div className='mt-12'>
+            <div className='mt-4'>
               <dt className='text-lg leading-6 font-medium text-gray-900'>
-                Erfahrungen zu Endlichen Zustandsmaschinen (xstate)
+                Erfahrungen mit "Endlichen Zustandsmaschinen" (
+                <a href='https://xstate.js.org'>xstate</a>)
               </dt>
             </div>
-            <div className='mt-12'>
+            <div className='mt-4'>
               <dt className='text-lg leading-6 font-medium text-gray-900'>
                 Praxiserfahrung im Einsatz agiler Methoden: Scrum, Kanban
               </dt>
             </div>
-            <div className='mt-12'>
+            <div className='mt-4'>
               <dt className='text-lg leading-6 font-medium text-gray-900'>
                 Erfahrung mit REST APIs und Serverless Functions
               </dt>
             </div>
           </div>
-          <div className='mt-12 md:mt-0'>
+          <div className='mt-4 md:mt-0'>
             <div>
               <dt className='text-lg leading-6 font-medium text-gray-900'>
                 Fundierte Kenntnisse mit GraphQL
               </dt>
             </div>
-            <div className='mt-12'>
+            <div className='mt-4'>
               <dt className='text-lg leading-6 font-medium text-gray-900'>
                 Fundierte Kenntnisse zu CMS Systemen (Wordpress, DatoCMS, Ghots,
                 Contentful, etc.)
               </dt>
             </div>
-            <div className='mt-12'>
-              <dt className='text-lg leading-6 font-medium text-gray-900'>
-                Erfahrung mit AWS und GCP
-              </dt>
-            </div>
-            <div className='mt-12'>
+            <div className='mt-4'>
               <dt className='text-lg leading-6 font-medium text-gray-900'>
                 Fundierte Kenntnisse mit Git und CI/CD
               </dt>
             </div>
-            <div className='mt-12'>
+            <div className='mt-4'>
               <dt className='text-lg leading-6 font-medium text-gray-900'>
-                Erfahrung mit clean Code und Test Driven Development
+                Erfahrung mit clean Code und Test Driven Development (Jest and
+                React Testing Library)
               </dt>
             </div>
-            <div className='mt-12'>
+            <div className='mt-4'>
               <dt className='text-lg leading-6 font-medium text-gray-900'>
                 Sicher im Umgang mit Kunden und Projektplanung
               </dt>
             </div>
-            <div className='mt-12'>
+            <div className='mt-4'>
               <dt className='text-lg leading-6 font-medium text-gray-900'>
                 Fließende Deutsch- und Englischkenntnisse
               </dt>
             </div>
-            <div className='mt-12'>
+            <div className='mt-4'>
               <dt className='text-lg leading-6 font-medium text-gray-900'>
-                Praxiserfahrung im Responsive Design
+                Praxiserfahrung mit Responsive Design
               </dt>
             </div>
           </div>
@@ -217,11 +214,106 @@ const Facts = () => (
   </div>
 )
 
+const StackedList = () => (
+  <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+    <li className='col-span-1 bg-white rounded-lg shadow'>
+      <div className='w-full flex items-center justify-between p-6 space-x-6'>
+        <div className='flex-1 '>
+          <div className='flex items-center space-x-3'>
+            <h3 className='text-gray-900 text-sm leading-5 font-medium truncate'>
+              Projekterfahrung mit
+            </h3>
+          </div>
+          <p className='mt-1 text-gray-500 text-sm leading-5 break-words'>
+            JavaScript, React, GatsbyJS, NextJs, HTML5, CSS3, GraphQL
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li className='col-span-1 bg-white rounded-lg shadow'>
+      <div className='w-full flex items-center justify-between p-6 space-x-6'>
+        <div className='flex-1 '>
+          <div className='flex items-center space-x-3'>
+            <h3 className='text-gray-900 text-sm leading-5 font-medium truncate'>
+              Projekterfahrung mit
+            </h3>
+          </div>
+          <p className='mt-1 text-gray-500 text-sm leading-5 break-words'>
+            JavaScript, React, GatsbyJS, NextJs, HTML5, CSS3, GraphQL
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li className='col-span-1 bg-white rounded-lg shadow'>
+      <div className='w-full flex items-center justify-between p-6 space-x-6'>
+        <div className='flex-1 '>
+          <div className='flex items-center space-x-3'>
+            <h3 className='text-gray-900 text-sm leading-5 font-medium truncate'>
+              Projekterfahrung mit
+            </h3>
+          </div>
+          <p className='mt-1 text-gray-500 text-sm leading-5 break-words'>
+            JavaScript, React, GatsbyJS, NextJs, HTML5, CSS3, GraphQL
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li className='col-span-1 bg-white rounded-lg shadow'>
+      <div className='w-full flex items-center justify-between p-6 space-x-6'>
+        <div className='flex-1 '>
+          <div className='flex items-center space-x-3'>
+            <h3 className='text-gray-900 text-sm leading-5 font-medium truncate'>
+              Projekterfahrung mit
+            </h3>
+          </div>
+          <p className='mt-1 text-gray-500 text-sm leading-5 break-words'>
+            JavaScript, React, GatsbyJS, NextJs, HTML5, CSS3, GraphQL
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li className='col-span-1 bg-white rounded-lg shadow'>
+      <div className='w-full flex items-center justify-between p-6 space-x-6'>
+        <div className='flex-1 '>
+          <div className='flex items-center space-x-3'>
+            <h3 className='text-gray-900 text-sm leading-5 font-medium truncate'>
+              Projekterfahrung mit
+            </h3>
+          </div>
+          <p className='mt-1 text-gray-500 text-sm leading-5 break-words'>
+            JavaScript, React, GatsbyJS, NextJs, HTML5, CSS3, GraphQL
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li className='col-span-1 bg-white rounded-lg shadow'>
+      <div className='w-full flex items-center justify-between p-6 space-x-6'>
+        <div className='flex-1 '>
+          <div className='flex items-center space-x-3'>
+            <h3 className='text-gray-900 text-sm leading-5 font-medium truncate'>
+              Projekterfahrung mit
+            </h3>
+          </div>
+          <p className='mt-1 text-gray-500 text-sm leading-5 break-words'>
+            JavaScript, React, GatsbyJS, NextJs, HTML5, CSS3, GraphQL
+          </p>
+        </div>
+      </div>
+    </li>
+  </ul>
+)
+
 const index = () => (
   <Layout>
     <h1 className='text-4xl font-bold text-gray-900 font-Inter leading-7 sm:text-3xl sm:leading-9 sm:truncate'>
       Amadeus Mader
     </h1>
+    <StackedList />
     <Facts />
   </Layout>
 )
