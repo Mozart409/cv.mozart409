@@ -13,7 +13,7 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
 
     <div className='flex flex-col min-h-screen font-sans text-gray-900'>
       <div className='flex h-screen overflow-hidden bg-gray-100'>
-        <div className='flex-shrink-0 flex sm:hidden'>
+        <div className='flex flex-shrink-0 sm:hidden'>
           <MobileMenu />
         </div>
         <div className='flex-shrink-0 hidden sm:flex'>
