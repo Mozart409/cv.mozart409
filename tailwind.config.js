@@ -5,7 +5,8 @@ module.exports = {
       colors: {
         graphql: '#e10098',
         gitactions: '#2088FF',
-        gtm: '#246fdb'
+        gtm: '#246fdb',
+        jest: '#C21325'
       }
     }
   },

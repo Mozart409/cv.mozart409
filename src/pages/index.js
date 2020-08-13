@@ -165,11 +165,22 @@ const StackedList = () => (
               </h3>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
-              Wordpress,{' '}
-              <a href='https://datocms.com' target='_blank'>
+              <a
+                href='https://de.wordpress.com/'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                Wordpress
+              </a>
+              ,{' '}
+              <a
+                href='https://datocms.com'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
                 DatoCMS
               </a>{' '}
-              und andere headless CMS Systeme
+              und anderen "Headless CMS" Systemen
             </p>
           </div>
         </div>
@@ -184,9 +195,39 @@ const StackedList = () => (
               </h3>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
-              Clean Code und Test Driven Development (Jest, React Testing
-              Library, Cypress, Endliche Zustandsmaschinen{' '}
-              <a href='https://xstate.js.org'>xstate</a>)
+              Clean Code und Test Driven Development (
+              <a
+                rel='noopener noreferrer'
+                target='_blank'
+                href='https://jestjs.io/'
+              >
+                Jest
+              </a>
+              ,{' '}
+              <a
+                rel='noopener noreferrer'
+                target='_blank'
+                href='https://testing-library.com/'
+              >
+                React Testing Library
+              </a>
+              ,{' '}
+              <a
+                rel='noopener noreferrer'
+                target='_blank'
+                href='https://www.cypress.io/'
+              >
+                Cypress
+              </a>
+              , Endliche Zustandsmaschinen{' '}
+              <a
+                href='https://xstate.js.org'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                xstate
+              </a>
+              )
             </p>
           </div>
         </div>
@@ -201,7 +242,23 @@ const StackedList = () => (
               </h3>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
-              mit Git und (Travis-ci, CircleCI)
+              mit Git und (
+              <a
+                href='https://travis-ci.org/'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                Travis-ci
+              </a>
+              ,{' '}
+              <a
+                href='https://circleci.com/'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                CircleCI
+              </a>
+              )
             </p>
           </div>
         </div>
@@ -278,8 +335,14 @@ const StackedList = () => (
               </h3>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
-              „Preliminary Englisch Test“ Level B1 von der Universitiy of
-              Cambridge
+              <a
+                href='https://www.cambridgeenglish.org/exams-and-tests/preliminary/'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                „Preliminary Englisch Test“
+              </a>{' '}
+              Level B1 von der Universitiy of Cambridge
             </p>
           </div>
         </div>

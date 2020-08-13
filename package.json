@@ -5,16 +5,11 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "format": "prettier-standard --format && rustywind --write .",
-    "lint": "prettier-standard --lint"
+    "format": "yarn run svg && prettier-standard --format && rustywind --write .",
+    "lint": "prettier-standard --lint",
+    "svg": "yarn run svgo *.svg"
   },
-  "browserslist": [
-    ">0.3%",
-    "defaults",
-    "ie 11",
-    "not dead",
-    "not op_mini all"
-  ],
+  "browserslist": [">0.3%", "defaults", "ie 11", "not dead", "not op_mini all"],
   "dependencies": {
     "@openfonts/ibm-plex-mono_all": "^1.44.1",
     "@openfonts/ibm-plex-sans-condensed_all": "^1.44.2",
@@ -40,6 +35,7 @@
     "@relative-ci/agent": "^1.3.0",
     "prettier-standard": "^16.4.1",
     "rustywind": "^0.6.6",
+    "svgo": "^1.3.2",
     "webpack-stats-plugin": "^0.3.2"
   }
 }
