@@ -7,9 +7,15 @@
     "start": "next start",
     "format": "yarn run svg && prettier-standard --format && rustywind --write .",
     "lint": "prettier-standard --lint",
-    "svg": "yarn run svgo *.svg"
+    "svg": "yarn run svgo public/"
   },
-  "browserslist": [">0.3%", "defaults", "ie 11", "not dead", "not op_mini all"],
+  "browserslist": [
+    ">0.3%",
+    "defaults",
+    "ie 11",
+    "not dead",
+    "not op_mini all"
+  ],
   "dependencies": {
     "@openfonts/ibm-plex-mono_all": "^1.44.1",
     "@openfonts/ibm-plex-sans-condensed_all": "^1.44.2",
