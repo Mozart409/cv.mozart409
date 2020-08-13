@@ -12,7 +12,7 @@
   "browserslist": [">0.3%", "defaults", "ie 11", "not dead", "not op_mini all"],
   "husky": {
     "hooks": {
-      "pre-push": "yarn format"
+      "pre-commit": "yarn format"
     }
   },
   "dependencies": {
