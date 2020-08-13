@@ -185,7 +185,7 @@ const StackedList = () => (
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
               Clean Code und Test Driven Development (Jest, React Testing
-              Library, Cypress, Endliche Zustandsmaschinen
+              Library, Cypress, Endliche Zustandsmaschinen{' '}
               <a href='https://xstate.js.org'>xstate</a>)
             </p>
           </div>

@@ -37,7 +37,9 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "@relative-ci/agent": "^1.3.0",
     "prettier-standard": "^16.4.1",
-    "rustywind": "^0.6.6"
+    "rustywind": "^0.6.6",
+    "webpack-stats-plugin": "^0.3.2"
   }
 }
