@@ -4,9 +4,9 @@ import Layout from '../components/layout'
 const BerufeCard = () => (
   <div className='mt-8'>
     <div className='px-4 py-5 bg-white border-b border-gray-200 shadow sm:px-6'>
-      <h3 className='text-lg font-medium text-gray-900 leading-6'>
+      <h2 className='text-lg font-medium text-gray-900 leading-6'>
         Berufserfahrung
-      </h3>
+      </h2>
     </div>
     <div className='overflow-hidden bg-white shadow sm:rounded-b-md'>
       <ul>
@@ -214,7 +214,7 @@ const BerufeCard = () => (
 const PraktikaCard = () => (
   <div className='mt-8'>
     <div className='px-4 py-5 bg-white border-b border-gray-200 shadow sm:px-6'>
-      <h3 className='text-lg font-medium text-gray-900 leading-6'>Praktika</h3>
+      <h2 className='text-lg font-medium text-gray-900 leading-6'>Praktika</h2>
     </div>
     <div className='overflow-hidden bg-white shadow sm:rounded-b-md'>
       <ul>
@@ -355,165 +355,12 @@ const PraktikaCard = () => (
   </div>
 )
 
-const Skills = () => (
-  <div className=''>
-    <div className='px-4 py-12 mx-auto max-w-screen-xl sm:px-6 lg:py-16 lg:px-8'>
-      <h2 className='text-xl font-extrabold text-gray-900 leading-9 sm:text-2xl sm:leading-10'>
-        Meine Expertisen
-      </h2>
-      <div className='mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8'>
-        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
-          <dt
-            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
-            id='item-1'
-          >
-            HTML
-          </dt>
-          <dd
-            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
-            aria-describedby='item-1'
-          >
-            5/5
-          </dd>
-        </div>
-        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
-          <dt
-            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
-            id='item-1'
-          >
-            CSS
-          </dt>
-          <dd
-            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
-            aria-describedby='item-1'
-          >
-            5/5
-          </dd>
-        </div>
-        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
-          <dt
-            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
-            id='item-1'
-          >
-            JS
-          </dt>
-          <dd
-            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
-            aria-describedby='item-1'
-          >
-            4/5
-          </dd>
-        </div>
-        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
-          <dt
-            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
-            id='item-1'
-          >
-            React
-          </dt>
-          <dd
-            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
-            aria-describedby='item-1'
-          >
-            4/5
-          </dd>
-        </div>
-
-        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
-          <dt
-            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
-            id='item-1'
-          >
-            TailwindCSS
-          </dt>
-          <dd
-            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
-            aria-describedby='item-1'
-          >
-            4/5
-          </dd>
-        </div>
-        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
-          <dt
-            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
-            id='item-1'
-          >
-            NextJS
-          </dt>
-          <dd
-            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
-            aria-describedby='item-1'
-          >
-            4/5
-          </dd>
-        </div>
-        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
-          <dt
-            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
-            id='item-1'
-          >
-            GatsbyJS
-          </dt>
-          <dd
-            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
-            aria-describedby='item-1'
-          >
-            4/5
-          </dd>
-        </div>
-        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
-          <dt
-            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
-            id='item-1'
-          >
-            FaunaDB
-          </dt>
-          <dd
-            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
-            aria-describedby='item-1'
-          >
-            3/5
-          </dd>
-        </div>
-        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
-          <dt
-            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
-            id='item-1'
-          >
-            Firebase
-          </dt>
-          <dd
-            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
-            aria-describedby='item-1'
-          >
-            3/5
-          </dd>
-        </div>
-
-        <div className='flex flex-col p-6 text-center bg-white border-b border-gray-100'>
-          <dt
-            className='order-2 mt-2 text-lg font-medium text-gray-500 leading-6'
-            id='item-1'
-          >
-            GraphQL
-          </dt>
-          <dd
-            className='order-1 text-5xl font-extrabold leading-none text-indigo-600'
-            aria-describedby='item-1'
-          >
-            3/5
-          </dd>
-        </div>
-      </div>
-    </div>
-  </div>
-)
 const AusbildungCard = () => (
   <div className='mt-8'>
     <div className='px-4 py-5 bg-white border-b border-gray-200 shadow sm:px-6'>
-      <h3 className='text-lg font-medium text-gray-900 leading-6'>
+      <h2 className='text-lg font-medium text-gray-900 leading-6'>
         Ausbildung
-      </h3>
+      </h2>
     </div>
     <div className='overflow-hidden bg-white shadow sm:rounded-b-md'>
       <ul>

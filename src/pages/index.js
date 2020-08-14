@@ -19,9 +19,9 @@ const BeginningCard = () => {
   return (
     <div className='mt-8'>
       <div className='px-4 py-5 bg-white border-b border-gray-200 shadow sm:px-6'>
-        <h3 className='text-lg font-medium text-gray-900 leading-6'>
+        <h2 className='text-lg font-medium text-gray-900 leading-6'>
           Meine Anfänge damals
-        </h3>
+        </h2>
       </div>
       <div className='overflow-hidden bg-white shadow sm:rounded-b-md'>
         <ul>
@@ -74,9 +74,9 @@ const RecentCard = () => {
   return (
     <div className='mt-8'>
       <div className='px-4 py-5 bg-white border-b border-gray-200 shadow sm:px-6'>
-        <h3 className='text-lg font-medium text-gray-900 leading-6'>
+        <h2 className='text-lg font-medium text-gray-900 leading-6'>
           Meine Erfahrungen heute
-        </h3>
+        </h2>
       </div>
       <div className='overflow-hidden bg-white shadow sm:rounded-b-md'>
         <ul>
@@ -129,9 +129,9 @@ const StackedList = () => (
         <div className='flex items-center justify-between w-full p-6 space-x-6'>
           <div className='flex-1 '>
             <div className='flex items-center space-x-3'>
-              <h3 className='text-sm font-medium text-gray-900 truncate leading-5'>
-                Projekterfahrung mit
-              </h3>
+              <h2 className='text-sm font-medium text-gray-900 truncate leading-5'>
+                Branchen
+              </h2>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
               Elektroauto-Vermietung, Ferienwohnungen, professionelle
@@ -145,9 +145,9 @@ const StackedList = () => (
         <div className='flex items-center justify-between w-full p-6 space-x-6'>
           <div className='flex-1 '>
             <div className='flex items-center space-x-3'>
-              <h3 className='text-sm font-medium text-gray-900 truncate leading-5'>
+              <h2 className='text-sm font-medium text-gray-900 truncate leading-5'>
                 Programmier Kenntnisse zu
-              </h3>
+              </h2>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
               JavaScript, React, GatsbyJS, NextJs, HTML5, CSS3, GraphQL
@@ -160,9 +160,9 @@ const StackedList = () => (
         <div className='flex items-center justify-between w-full p-6 space-x-6'>
           <div className='flex-1 '>
             <div className='flex items-center space-x-3'>
-              <h3 className='text-sm font-medium text-gray-900 truncate leading-5'>
+              <h2 className='text-sm font-medium text-gray-900 truncate leading-5'>
                 CMS Systemen
-              </h3>
+              </h2>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
               <a
@@ -190,9 +190,9 @@ const StackedList = () => (
         <div className='flex items-center justify-between w-full p-6 space-x-6'>
           <div className='flex-1 '>
             <div className='flex items-center space-x-3'>
-              <h3 className='text-sm font-medium text-gray-900 truncate leading-5'>
+              <h2 className='text-sm font-medium text-gray-900 truncate leading-5'>
                 Methoden
-              </h3>
+              </h2>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
               Clean Code und Test Driven Development (
@@ -237,9 +237,9 @@ const StackedList = () => (
         <div className='flex items-center justify-between w-full p-6 space-x-6'>
           <div className='flex-1 '>
             <div className='flex items-center space-x-3'>
-              <h3 className='text-sm font-medium text-gray-900 truncate leading-5'>
+              <h2 className='text-sm font-medium text-gray-900 truncate leading-5'>
                 Continuous Integration / Deployment
-              </h3>
+              </h2>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
               mit Git und (
@@ -268,9 +268,9 @@ const StackedList = () => (
         <div className='flex items-center justify-between w-full p-6 space-x-6'>
           <div className='flex-1 '>
             <div className='flex items-center space-x-3'>
-              <h3 className='text-sm font-medium text-gray-900 truncate leading-5'>
+              <h2 className='text-sm font-medium text-gray-900 truncate leading-5'>
                 Erfahrung mit
-              </h3>
+              </h2>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
               REST APIs und Serverless Functions
@@ -285,9 +285,9 @@ const StackedList = () => (
         <div className='flex items-center justify-between w-full p-6 space-x-6'>
           <div className='flex-1 '>
             <div className='flex items-center space-x-3'>
-              <h3 className='text-sm font-medium text-gray-900 truncate leading-5'>
+              <h2 className='text-sm font-medium text-gray-900 truncate leading-5'>
                 Fundierte Kenntnisse
-              </h3>
+              </h2>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
               zur Suchmaschinen-Optimierung
@@ -300,9 +300,9 @@ const StackedList = () => (
         <div className='flex items-center justify-between w-full p-6 space-x-6'>
           <div className='flex-1 '>
             <div className='flex items-center space-x-3'>
-              <h3 className='text-sm font-medium text-gray-900 truncate leading-5'>
+              <h2 className='text-sm font-medium text-gray-900 truncate leading-5'>
                 Sicher im Umgang
-              </h3>
+              </h2>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
               mit Kunden und Projektplanung
@@ -315,12 +315,12 @@ const StackedList = () => (
         <div className='flex items-center justify-between w-full p-6 space-x-6'>
           <div className='flex-1 '>
             <div className='flex items-center space-x-3'>
-              <h3 className='text-sm font-medium text-gray-900 truncate leading-5'>
+              <h2 className='text-sm font-medium text-gray-900 truncate leading-5'>
                 Praxiserfahrung im Einsatz
-              </h3>
+              </h2>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
-              agiler Methoden: Scrum, Kanban
+              agiler Methoden: Scrum, Kanban, Jira und Confluence von Atlassian
             </p>
           </div>
         </div>
@@ -330,9 +330,9 @@ const StackedList = () => (
         <div className='flex items-center justify-between w-full p-6 space-x-6'>
           <div className='flex-1 '>
             <div className='flex items-center space-x-3'>
-              <h3 className='text-sm font-medium text-gray-900 truncate leading-5'>
+              <h2 className='text-sm font-medium text-gray-900 truncate leading-5'>
                 Fließende Deutsch- und Englischkenntnisse
-              </h3>
+              </h2>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
               <a
@@ -353,8 +353,8 @@ const StackedList = () => (
 
 const index = () => (
   <Layout>
-    <h1 className='text-4xl font-bold text-gray-900 font-Inter leading-7 sm:text-3xl sm:leading-9 sm:truncate'>
-      Amadeus Mader
+    <h1 className='font-bold text-gray-900 font-Inter leading-7 text-2xl md:text-4xl sm:leading-9 sm:truncate'>
+      Amadeus Mader - Meine Stärken
     </h1>
     <StackedList />
   </Layout>
