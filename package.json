@@ -5,17 +5,11 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "format": "prettier-standard --format && rustywind --write .",
+    "format": "rustywind --write . && prettier-standard --format",
     "lint": "prettier-standard --lint",
     "svg": "yarn run svgo public/"
   },
-  "browserslist": [
-    ">0.3%",
-    "defaults",
-    "ie 11",
-    "not dead",
-    "not op_mini all"
-  ],
+  "browserslist": [">0.3%", "defaults", "ie 11", "not dead", "not op_mini all"],
   "husky": {
     "hooks": {
       "pre-commit": "yarn format"

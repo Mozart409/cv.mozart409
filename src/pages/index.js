@@ -353,7 +353,7 @@ const StackedList = () => (
 
 const index = () => (
   <Layout>
-    <h1 className='font-bold text-gray-900 font-Inter leading-7 text-2xl md:text-4xl sm:leading-9 sm:truncate'>
+    <h1 className='text-2xl font-bold text-gray-900 font-Inter leading-7 md:text-4xl sm:leading-9 sm:truncate'>
       Amadeus Mader - Meine Stärken
     </h1>
     <StackedList />
