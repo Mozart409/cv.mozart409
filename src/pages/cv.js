@@ -768,7 +768,6 @@ const cv = () => (
     </a>
     <PraktikaCard />
     <AusbildungCard />
-    <Skills />
   </Layout>
 )
 
