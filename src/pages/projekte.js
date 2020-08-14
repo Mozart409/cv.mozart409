@@ -55,11 +55,8 @@ const Techs = () => (
           </span>
         </div>
         <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
-          <img className='max-h-12' src='/metomic.svg' alt='Metomic' />
-        </div>
-        <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
           <img className='max-h-12' src='/gtm.svg' alt='Google Tag Manager' />
-          <span className='my-auto text-lg font-bold tracking-widest  text-gtm'>
+          <span className='my-auto ml-1 text-lg font-bold tracking-widest text-gtm'>
             Google Tag Manager
           </span>
         </div>
@@ -72,7 +69,7 @@ const Techs = () => (
             src='/GithubActions.svg'
             alt='Github Action'
           />
-          <span className='my-auto text-lg font-bold tracking-widest text-gitactions'>
+          <span className='my-auto ml-1 text-lg font-bold tracking-widest text-gitactions'>
             Github Actions
           </span>
         </div>
