@@ -286,12 +286,11 @@ const StackedList = () => (
           <div className='flex-1 '>
             <div className='flex items-center space-x-3'>
               <h2 className='text-sm font-medium text-gray-900 truncate leading-5'>
-                Fundierte Kenntnisse
+                Suchmaschinen-Optimierung
               </h2>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
-              zur Suchmaschinen-Optimierung (mehrere Projekte auf Seite 1 in die
-              5 Top gebracht)
+              mehrere Projekte auf Seite 1 in die 5 Top gebracht
             </p>
           </div>
         </div>
