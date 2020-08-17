@@ -8,6 +8,7 @@ export default function mobileMenu () {
       {/*  <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" --> */}
       <button
         type='button'
+        name='menu'
         onClick={() => setIsOpen(!isOpen)}
         className='inline-flex items-center p-3 text-base font-medium text-white bg-gray-900 group space-x-2 leading-6  focus:outline-none rounded-md transition ease-in-out duration-150'
       >
