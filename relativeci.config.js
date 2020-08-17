@@ -3,6 +3,6 @@ module.exports = {
   includeCommitMessage: true,
   webpack: {
     // Path to Webpack stats JSON file
-    stats: 'public/stats.json'
+    stats: '.next/stats.json'
   }
 }
