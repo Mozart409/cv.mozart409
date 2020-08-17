@@ -219,7 +219,7 @@ const StackedList = () => (
               >
                 Cypress
               </a>
-              , Endliche Zustandsmaschinen{' '}
+              , endliche Zustandsmaschinen{' '}
               <a
                 href='https://xstate.js.org'
                 rel='noopener noreferrer'
@@ -290,7 +290,8 @@ const StackedList = () => (
               </h2>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
-              zur Suchmaschinen-Optimierung
+              zur Suchmaschinen-Optimierung (mehrere Projekte auf Seite 1 in die
+              5 Top gebracht)
             </p>
           </div>
         </div>

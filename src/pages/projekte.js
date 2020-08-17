@@ -8,17 +8,11 @@ const Techs = () => (
       <h2 className='text-xl font-extrabold text-gray-900 leading-9 sm:text-2xl sm:leading-10'>
         Technologien
       </h2>
-      <div className='mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8'>
+      <div className='mt-6 grid grid-cols-1 gap-0.5 md:grid-cols-3 lg:mt-8'>
         <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
           <img className='max-h-12' src='/Gatsby.svg' alt='Gatsbyjs' />
         </div>
-        <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
-          <img
-            className='max-h-12'
-            src='/zeit-black-full-logo.svg'
-            alt='Zeit.co'
-          />
-        </div>
+
         <div className='flex justify-center px-8 py-8 bg-white col-span-1'>
           <img className='max-h-12' src='/nextjs-black-logo.svg' alt='Nextjs' />
         </div>
@@ -118,7 +112,7 @@ const Projekt1 = () => (
             Umsetzen aller Onpage Suchmaschinen-Optimierungen, dadurch grünes
             Licht (100) von Google beim Lighthouse Test
           </li>
-          <li>Einrichtes von continous deployment</li>
+          <li>Einrichten von continous deployment</li>
           <li>Agiles Arbeiten mit Scrum (Jira und Confluence von Atlassian)</li>
           <li>Umsetzung der Programmierung auf Basis von clean Code und TDD</li>
         </ul>
@@ -134,9 +128,9 @@ const Projekt2 = () => (
     <div className='px-4 py-5 sm:p-6'>
       <ul className='font-sans text-sm text-gray-500 list-disc list-inside'>
         <li>
-          Ersetzten der bisherigen Joomla Website durch ein neues,
-          mobiloptimiert Design mit GatsbyJS (JavaScript, HTML5, CSS3, ReactJS)
-          und Einführen des DatoCMS
+          Ersetzten der bisherigen Joomla Website durch ein neues, mobil
+          optimiert Design mit GatsbyJS (JavaScript, HTML5, CSS3, ReactJS) und
+          Einführen des DatoCMS
         </li>
         <li>
           Umsetzen aller Onpage Suchmaschinen-Optimierungen, vor allem
@@ -175,8 +169,8 @@ const Projekt4 = () => (
           Ferienwohnungen an Zeitarbeiter
         </li>
         <li>
-          Ersetzten der bisherigen Joomla Website durch ein neues,
-          mobiloptimiert Design
+          Ersetzten der bisherigen Joomla Website durch ein neues, mobil
+          optimiert Design
         </li>
         <li>
           Herausarbeiten der wichtigen Kriterien der Zielgruppe mit dem Kunden

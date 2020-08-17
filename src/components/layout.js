@@ -13,10 +13,10 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
 
     <div className='flex flex-col min-h-screen font-sans text-gray-900'>
       <div className='flex h-screen overflow-hidden bg-gray-100'>
-        <div className='flex flex-shrink-0 sm:hidden'>
+        <div className='flex flex-shrink-0 lg:hidden'>
           <MobileMenu />
         </div>
-        <div className='flex-shrink-0 hidden sm:flex'>
+        <div className='flex-shrink-0 hidden lg:flex'>
           <div className='flex flex-col w-64 bg-gray-900 border-r border-white'>
             <div className='flex flex-col flex-1 h-0 pt-5 pb-4 overflow-y-auto'>
               <div className='flex items-center px-4'>

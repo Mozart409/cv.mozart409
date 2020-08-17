@@ -69,7 +69,7 @@ const BerufeCard = () => (
                 <p className='mt-2 font-sans text-sm text-gray-500 leading-5 sm:mt-0 '>
                   Erfolgreiche Planung und Umsetzung der SEO optimierten
                   Websites, teilweise mit CMS (GraphQL Anbindung zu WordPress
-                  oder DatoCMS), inklusive Kundenkommukation. Entwurf,
+                  oder DatoCMS), inklusive Kundenkommunikation. Entwurf,
                   Abstimmung und Umsetzung des Designs. Agile Projektumsetzung
                   mit Jira und Confluence von Atlassian.
                 </p>
