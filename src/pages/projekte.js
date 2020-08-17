@@ -147,7 +147,7 @@ const Projekt2 = () => (
 const Projekt3 = () => (
   <div className='mt-8 overflow-hidden bg-white rounded-lg shadow prose lg:prose-xl'>
     <div className='px-4 py-5 border-b border-gray-200 sm:px-6'>
-      Seo-freelancerin.com
+      seo-freelancerin.com
     </div>
     <div className='px-4 py-5 sm:p-6'>
       <ul className='font-sans text-sm text-gray-500 list-inside '>
@@ -187,7 +187,7 @@ const Projekt4 = () => (
 const ProjektePage = () => (
   <Layout>
     <h1 className='text-4xl font-bold text-gray-900 font-Inter leading-7 sm:text-3xl sm:leading-9 sm:truncate'>
-      Projekte
+      Auszug meiner Projekte
     </h1>
     <Projekte />
     <Techs />
