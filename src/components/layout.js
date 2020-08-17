@@ -9,7 +9,6 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
       <meta charSet='utf-8' />
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       <link rel='icon' href='/favicon.png' />
-      <meta lang='de' />
       <meta name='Description' content='Vurriculum Vitae - Amadeus Mader' />
     </Head>
 
