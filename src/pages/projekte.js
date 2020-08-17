@@ -90,7 +90,7 @@ const Projekt1 = () => (
     </div>
     <div>
       <div className='px-4 py-5 sm:p-6'>
-        <ul className='font-sans text-sm text-gray-500 list-disc list-inside'>
+        <ul className='font-sans text-sm text-gray-500 list-inside '>
           <li>
             Ersetzten der bisherigen Wordpress Website durch ein neues,
             mobiloptimiert Design mit GatsbyJS (JavaScript, HTML5, CSS3,
@@ -126,7 +126,7 @@ const Projekt2 = () => (
       Unternehmensberatung
     </div>
     <div className='px-4 py-5 sm:p-6'>
-      <ul className='font-sans text-sm text-gray-500 list-disc list-inside'>
+      <ul className='font-sans text-sm text-gray-500 list-inside '>
         <li>
           Ersetzten der bisherigen Joomla Website durch ein neues, mobil
           optimiert Design mit GatsbyJS (JavaScript, HTML5, CSS3, ReactJS) und
@@ -150,7 +150,7 @@ const Projekt3 = () => (
       Seo-freelancerin.com
     </div>
     <div className='px-4 py-5 sm:p-6'>
-      <ul className='font-sans text-sm text-gray-500 list-disc list-inside'>
+      <ul className='font-sans text-sm text-gray-500 list-inside '>
         <li>Umsetzung, Design, Onpage Optimierungen</li>
       </ul>
     </div>
@@ -163,7 +163,7 @@ const Projekt4 = () => (
       Ferienwohnungen
     </div>
     <div className='px-4 py-5 sm:p-6'>
-      <ul className='font-sans text-sm text-gray-500 list-disc list-inside'>
+      <ul className='font-sans text-sm text-gray-500 list-inside '>
         <li>
           Umsetzung einer Website mit Wordpress zur Vermietung von
           Ferienwohnungen an Zeitarbeiter

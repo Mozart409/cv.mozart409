@@ -1,8 +1,6 @@
 import '../css/style.css'
+import './../../public/fonts/fonts.css'
 import { PageTransition } from 'next-page-transitions'
-require('@openfonts/ibm-plex-sans-condensed_all')
-require('@openfonts/ibm-plex-mono_all')
-require('@openfonts/ibm-plex-sans_all')
 
 export default function MyApp ({ Component, pageProps }) {
   const TIMEOUT = 400
@@ -42,11 +40,7 @@ export default function MyApp ({ Component, pageProps }) {
         h1,
         h1 > *,
         h2,
-        h2 > * {
-          font-family: 'IBM Plex Sans';
-          font-display: auto;
-        }
-
+        h2 > *,
         h3,
         h3 > * h4,
         h4 > *,
@@ -54,7 +48,7 @@ export default function MyApp ({ Component, pageProps }) {
         h5 > *,
         h6,
         h6 > * {
-          font-family: 'IBM Plex Sans Condensed';
+          font-family: 'IBM Plex Sans';
           font-display: auto;
         }
         p,

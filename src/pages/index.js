@@ -336,14 +336,15 @@ const StackedList = () => (
               </h2>
             </div>
             <p className='mt-1 text-sm text-gray-500 break-words leading-5'>
+              „
               <a
                 href='https://www.cambridgeenglish.org/exams-and-tests/preliminary/'
                 rel='noopener noreferrer'
                 target='_blank'
               >
-                „Preliminary Englisch Test“
-              </a>{' '}
-              Level B1 von der Universitiy of Cambridge
+                Preliminary Englisch Test
+              </a>
+              “ Level B1 von der Universitiy of Cambridge
             </p>
           </div>
         </div>
