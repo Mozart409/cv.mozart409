@@ -2,3 +2,5 @@ node_modules/
 .next/
 
 package.json
+public/sw.js
+workbox-*
