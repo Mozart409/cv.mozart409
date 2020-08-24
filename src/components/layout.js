@@ -19,7 +19,7 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
               <div className='flex items-center px-4'>
                 <img
                   className='w-64 rounded-md'
-                  src='/tisch.webp'
+                  src='/tisch.png'
                   alt='Amadeus'
                 />
               </div>
