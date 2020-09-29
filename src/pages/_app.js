@@ -1,12 +1,19 @@
-import '../css/style.css'
-import './../../public/fonts/fonts.css'
-import { PageTransition } from 'next-page-transitions'
+import "../css/style.css";
+import "./../../public/fonts/fonts.css";
+import Head from "next/head";
+import { PageTransition } from "next-page-transitions";
 
-export default function MyApp ({ Component, pageProps }) {
-  const TIMEOUT = 400
+export default function MyApp({ Component, pageProps }) {
+  const TIMEOUT = 400;
   return (
     <>
-      <PageTransition classNames='page-transition' timeout={TIMEOUT}>
+      <PageTransition classNames="page-transition" timeout={TIMEOUT}>
+        <Head>
+          <meta
+            name="viewport"
+            content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover"
+          />
+        </Head>
         <Component {...pageProps} />
       </PageTransition>
       <style jsx global>{`
@@ -48,7 +55,7 @@ export default function MyApp ({ Component, pageProps }) {
         h5 > *,
         h6,
         h6 > * {
-          font-family: 'IBM Plex Sans';
+          font-family: "IBM Plex Sans";
           font-display: auto;
         }
         p,
@@ -59,10 +66,10 @@ export default function MyApp ({ Component, pageProps }) {
         pre > *,
         code,
         code > * {
-          font-family: 'IBM Plex Mono';
+          font-family: "IBM Plex Mono";
           font-display: auto;
         }
       `}</style>
     </>
-  )
+  );
 }
