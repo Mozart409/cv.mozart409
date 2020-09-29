@@ -26,9 +26,9 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
 
               <nav className='flex-1 px-2 mt-5 text-white'>
                 <Link href='/'>
-                  <a className='flex items-center px-2 py-2 mt-1 text-sm font-medium text-white group leading-5 rounded-md hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white transition ease-in-out duration-150'>
+                  <a className='flex items-center px-2 py-2 mt-1 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out rounded-md group hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white'>
                     <svg
-                      className='w-6 h-6 mr-3 text-white group-hover:text-gray-800 group-focus:text-gray-800 transition ease-in-out duration-150'
+                      className='w-6 h-6 mr-3 text-white transition duration-150 ease-in-out group-hover:text-gray-800 group-focus:text-gray-800'
                       stroke='currentColor'
                       fill='none'
                       viewBox='0 0 24 24'
@@ -45,9 +45,9 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
                 </Link>
 
                 <Link href='/cv'>
-                  <a className='flex items-center px-2 py-2 mt-1 text-sm font-medium text-white group leading-5 rounded-md hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white transition ease-in-out duration-150'>
+                  <a className='flex items-center px-2 py-2 mt-1 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out rounded-md group hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white'>
                     <svg
-                      className='w-6 h-6 mr-3 text-white group-hover:text-gray-800 group-focus:text-gray-800 transition ease-in-out duration-150'
+                      className='w-6 h-6 mr-3 text-white transition duration-150 ease-in-out group-hover:text-gray-800 group-focus:text-gray-800'
                       stroke='currentColor'
                       fill='none'
                       viewBox='0 0 24 24'
@@ -64,9 +64,9 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
                 </Link>
 
                 <Link href='/projekte'>
-                  <a className='flex items-center px-2 py-2 mt-1 text-sm font-medium text-white group leading-5 rounded-md hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white transition ease-in-out duration-150'>
+                  <a className='flex items-center px-2 py-2 mt-1 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out rounded-md group hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white'>
                     <svg
-                      className='w-6 h-6 mr-3 text-white group-hover:text-gray-800 group-focus:text-gray-800 transition ease-in-out duration-150'
+                      className='w-6 h-6 mr-3 text-white transition duration-150 ease-in-out group-hover:text-gray-800 group-focus:text-gray-800'
                       stroke='currentColor'
                       fill='none'
                       viewBox='0 0 24 24'
@@ -82,9 +82,9 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
                   </a>
                 </Link>
                 <Link href='/contact'>
-                  <a className='flex items-center px-2 py-2 mt-1 text-sm font-medium text-white group leading-5 rounded-md hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white transition ease-in-out duration-150'>
+                  <a className='flex items-center px-2 py-2 mt-1 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out rounded-md group hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white'>
                     <svg
-                      className='w-6 h-6 mr-3 text-white group-hover:text-gray-800 group-focus:text-gray-800 transition ease-in-out duration-150'
+                      className='w-6 h-6 mr-3 text-white transition duration-150 ease-in-out group-hover:text-gray-800 group-focus:text-gray-800'
                       stroke='currentColor'
                       fill='none'
                       viewBox='0 0 24 24'
@@ -105,7 +105,7 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
               <a href='#' className='flex-shrink-0 block w-full group'>
                 <div className='flex items-center'>
                   <div className='ml-3'>
-                    <p className='text-sm font-medium text-white leading-5'>
+                    <p className='text-sm font-medium leading-5 text-white'>
                       &copy; {new Date().getFullYear()} Amadeus Mader
                     </p>
                   </div>

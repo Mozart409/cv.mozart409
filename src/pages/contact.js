@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 const contact = () => {
   return (
     <Layout title='Kontakt | Amadeus Mader'>
-      <h1 className='text-4xl font-bold text-gray-900 font-Inter leading-7 sm:text-3xl sm:leading-9 sm:truncate'>
+      <h1 className='text-4xl font-bold leading-7 text-gray-900 font-Inter sm:text-3xl sm:leading-9 sm:truncate'>
         Kontakt
       </h1>
 

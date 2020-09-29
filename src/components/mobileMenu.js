@@ -10,12 +10,12 @@ export default function mobileMenu () {
         type='button'
         aria-label='Menu'
         onClick={() => setIsOpen(!isOpen)}
-        className='inline-flex items-center p-3 text-base font-medium text-white bg-gray-900 group space-x-2 leading-6  focus:outline-none rounded-md transition ease-in-out duration-150'
+        className='inline-flex items-center p-3 space-x-2 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-gray-900 rounded-md group  focus:outline-none'
       >
         {/* <!-- Item active: "text-gray-600", Item inactive: "text-gray-400" --> */}
 
         <svg
-          className='w-5 h-5  transition ease-in-out duration-150'
+          className='w-5 h-5 transition duration-150 ease-in-out '
           fill='none'
           strokeLinecap='round'
           strokeLinejoin='round'
@@ -51,31 +51,31 @@ export default function mobileMenu () {
         <div className='absolute w-screen max-w-xs px-2 mt-3 right-1/2 transform -translate-x-1/2 sm:px-0'>
           <div className='rounded-lg shadow-lg'>
             <div className='overflow-hidden rounded-lg shadow-xs'>
-              <div className='relative z-20 px-5 py-6 bg-white grid gap-6 sm:gap-8 sm:p-8'>
+              <div className='relative z-20 grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8'>
                 <Link href='/'>
-                  <a className='block p-3 -m-3 space-y-1 rounded-md hover:bg-cool-gray-50 transition ease-in-out duration-150'>
-                    <p className='text-base font-medium text-gray-900 leading-6'>
+                  <a className='block p-3 -m-3 space-y-1 transition duration-150 ease-in-out rounded-md hover:bg-cool-gray-50'>
+                    <p className='text-base font-medium leading-6 text-gray-900'>
                       Home
                     </p>
                   </a>
                 </Link>
                 <Link href='/cv'>
-                  <a className='block p-3 -m-3 space-y-1 rounded-md hover:bg-cool-gray-50 transition ease-in-out duration-150'>
-                    <p className='text-base font-medium text-gray-900 leading-6'>
+                  <a className='block p-3 -m-3 space-y-1 transition duration-150 ease-in-out rounded-md hover:bg-cool-gray-50'>
+                    <p className='text-base font-medium leading-6 text-gray-900'>
                       Curriculum Vitae
                     </p>
                   </a>
                 </Link>
                 <Link href='/projekte'>
-                  <a className='block p-3 -m-3 space-y-1 rounded-md hover:bg-cool-gray-50 transition ease-in-out duration-150'>
-                    <p className='text-base font-medium text-gray-900 leading-6'>
+                  <a className='block p-3 -m-3 space-y-1 transition duration-150 ease-in-out rounded-md hover:bg-cool-gray-50'>
+                    <p className='text-base font-medium leading-6 text-gray-900'>
                       Projekte
                     </p>
                   </a>
                 </Link>
                 <Link href='/contact'>
-                  <a className='block p-3 -m-3 space-y-1 rounded-md hover:bg-cool-gray-50 transition ease-in-out duration-150'>
-                    <p className='text-base font-medium text-gray-900 leading-6'>
+                  <a className='block p-3 -m-3 space-y-1 transition duration-150 ease-in-out rounded-md hover:bg-cool-gray-50'>
+                    <p className='text-base font-medium leading-6 text-gray-900'>
                       Kontakt
                     </p>
                   </a>
