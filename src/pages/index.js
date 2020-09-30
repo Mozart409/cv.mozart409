@@ -203,14 +203,6 @@ const StackedList = () => (
               >
                 Cypress
               </a>
-              ,{" "}
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://www.cypress.io/"
-              >
-                Cypress
-              </a>
               , endliche Zustandsmaschinen{" "}
               <a
                 href="https://xstate.js.org"
