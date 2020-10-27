@@ -10,8 +10,8 @@ const contact = () => {
 
       <div className='mt-8 overflow-hidden bg-white rounded-lg shadow'>
         <div className='px-4 py-5 border-b border-gray-200 sm:px-6'>
-          Ich freue mich auf Ihre <a href='mailto:hey@mozart409.space'>Email</a>
-          .
+          Ich freue mich auf Ihre{' '}
+          <a href='mailto:amadeus@beammeup.today'>Email</a>.
         </div>
       </div>
     </Layout>

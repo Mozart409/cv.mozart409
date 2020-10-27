@@ -1,23 +1,23 @@
 module.exports = {
-  purge: ["./src/**/*.css", "./src/**/*.js", "./src/**/*.jsx"],
+  purge: ['./src/**/*.css', './src/**/*.js', './src/**/*.jsx'],
   future: {
     removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
+    purgeLayersByDefault: true
   },
   theme: {
     extend: {
       colors: {
-        graphql: "#e10098",
-        gitactions: "#2088FF",
-        gtm: "#246fdb",
-        jest: "#C21325",
-      },
-    },
+        graphql: '#e10098',
+        gitactions: '#2088FF',
+        gtm: '#246fdb',
+        jest: '#C21325'
+      }
+    }
   },
   variants: {},
   plugins: [
-    require("@tailwindcss/custom-forms"),
-    require("@tailwindcss/ui"),
-    require("@tailwindcss/typography"),
-  ],
-};
+    require('@tailwindcss/custom-forms'),
+    require('@tailwindcss/ui'),
+    require('@tailwindcss/typography')
+  ]
+}

@@ -1,95 +1,95 @@
-import Link from "next/link";
-import Layout from "../components/layout";
+import Link from 'next/link'
+import Layout from '../components/layout'
 
 const Techs = () => (
-  <div className="grid grid-cols-1 max-w-7xl">
-    <div className="px-4 py-12 mx-auto max-w-7xl font-Inter sm:px-6 lg:py-16 lg:px-8">
-      <h2 className="text-xl font-extrabold leading-9 text-gray-900 sm:text-2xl sm:leading-10">
+  <div className='grid grid-cols-1 max-w-7xl'>
+    <div className='px-4 py-12 mx-auto max-w-7xl font-Inter sm:px-6 lg:py-16 lg:px-8'>
+      <h2 className='text-xl font-extrabold leading-9 text-gray-900 sm:text-2xl sm:leading-10'>
         Technologien
       </h2>
-      <div className="mt-6 grid grid-cols-1 gap-0.5 md:grid-cols-3 lg:mt-8">
-        <div className="flex justify-center col-span-1 px-8 py-8 bg-white">
-          <img className="max-h-12" src="/Gatsby.svg" alt="Gatsbyjs" />
+      <div className='mt-6 grid grid-cols-1 gap-0.5 md:grid-cols-3 lg:mt-8'>
+        <div className='flex justify-center col-span-1 px-8 py-8 bg-white'>
+          <img className='max-h-12' src='/Gatsby.svg' alt='Gatsbyjs' />
         </div>
 
-        <div className="flex justify-center col-span-1 px-8 py-8 bg-white">
-          <img className="max-h-12" src="/nextjs-black-logo.svg" alt="Nextjs" />
+        <div className='flex justify-center col-span-1 px-8 py-8 bg-white'>
+          <img className='max-h-12' src='/nextjs-black-logo.svg' alt='Nextjs' />
         </div>
-        <div className="flex justify-center col-span-1 px-8 py-8 bg-white">
-          <img className="max-h-12" src="/tailwind.svg" alt="Tailwind" />
+        <div className='flex justify-center col-span-1 px-8 py-8 bg-white'>
+          <img className='max-h-12' src='/tailwind.svg' alt='Tailwind' />
         </div>
-        <div className="flex justify-center col-span-1 px-8 py-8 bg-white">
+        <div className='flex justify-center col-span-1 px-8 py-8 bg-white'>
           <img
-            className="max-h-12"
-            src="/cloudinary_logo_for_white_bg.svg"
-            alt="Cloudinary"
+            className='max-h-12'
+            src='/cloudinary_logo_for_white_bg.svg'
+            alt='Cloudinary'
           />
         </div>
-        <div className="flex justify-center col-span-1 px-8 py-8 bg-white">
-          <img className="max-h-12" src="/Mirage.svg" alt="Mirage" />
+        <div className='flex justify-center col-span-1 px-8 py-8 bg-white'>
+          <img className='max-h-12' src='/Mirage.svg' alt='Mirage' />
         </div>
-        <div className="flex justify-center col-span-1 px-8 py-8 bg-white">
-          <img className="max-h-12" src="/firebase.png" alt="Firebase" />
+        <div className='flex justify-center col-span-1 px-8 py-8 bg-white'>
+          <img className='max-h-12' src='/firebase.png' alt='Firebase' />
         </div>
-        <div className="flex justify-center col-span-1 px-8 py-8 bg-white">
-          <img className="max-h-12" src="/Fauna.png" alt="Fauna" />
+        <div className='flex justify-center col-span-1 px-8 py-8 bg-white'>
+          <img className='max-h-12' src='/Fauna.png' alt='Fauna' />
         </div>
-        <div className="flex justify-center col-span-1 px-8 py-8 bg-white">
-          <img className="max-h-12" src="/datocms_logo.svg" alt="DatoCms" />
+        <div className='flex justify-center col-span-1 px-8 py-8 bg-white'>
+          <img className='max-h-12' src='/datocms_logo.svg' alt='DatoCms' />
         </div>
-        <div className="flex justify-center col-span-1 px-8 py-8 bg-white">
-          <img className="max-h-12" src="/graphql.svg" alt="GraphQL" />
-          <span className="my-auto text-lg font-bold tracking-widest text-graphql">
+        <div className='flex justify-center col-span-1 px-8 py-8 bg-white'>
+          <img className='max-h-12' src='/graphql.svg' alt='GraphQL' />
+          <span className='my-auto text-lg font-bold tracking-widest text-graphql'>
             GraphQL
           </span>
         </div>
-        <div className="flex justify-center col-span-1 px-8 py-8 bg-white">
-          <img className="max-h-12" src="/gtm.svg" alt="Google Tag Manager" />
-          <span className="my-auto ml-1 text-lg font-bold tracking-widest text-gtm">
+        <div className='flex justify-center col-span-1 px-8 py-8 bg-white'>
+          <img className='max-h-12' src='/gtm.svg' alt='Google Tag Manager' />
+          <span className='my-auto ml-1 text-lg font-bold tracking-widest text-gtm'>
             Google Tag Manager
           </span>
         </div>
-        <div className="flex justify-center col-span-1 px-8 py-8 bg-white">
-          <img className="max-h-12" src="/metomic.svg" alt="Metomic" />
+        <div className='flex justify-center col-span-1 px-8 py-8 bg-white'>
+          <img className='max-h-12' src='/metomic.svg' alt='Metomic' />
         </div>
-        <div className="flex justify-center col-span-1 px-8 py-8 bg-white">
+        <div className='flex justify-center col-span-1 px-8 py-8 bg-white'>
           <img
-            className="max-h-12"
-            src="/GithubActions.svg"
-            alt="Github Action"
+            className='max-h-12'
+            src='/GithubActions.svg'
+            alt='Github Action'
           />
-          <span className="my-auto ml-1 text-lg font-bold tracking-widest text-gitactions">
+          <span className='my-auto ml-1 text-lg font-bold tracking-widest text-gitactions'>
             Github Actions
           </span>
         </div>
-        <div className="flex justify-center col-span-1 px-8 py-8 bg-white">
-          <img className="max-h-12" src="/cypress.png" alt="Cypress" />
-          <span className="my-auto text-lg font-bold tracking-widest text-jest">
+        <div className='flex justify-center col-span-1 px-8 py-8 bg-white'>
+          <img className='max-h-12' src='/cypress.png' alt='Cypress' />
+          <span className='my-auto text-lg font-bold tracking-widest text-jest'>
             Cypress
           </span>
         </div>
       </div>
     </div>
   </div>
-);
+)
 
 const Projekte = () => (
-  <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 ">
+  <div className='grid grid-cols-1 gap-2 sm:grid-cols-2 '>
     <Projekt1 />
     <Projekt2 />
     <Projekt3 />
     <Projekt4 />
   </div>
-);
+)
 
 const Projekt1 = () => (
-  <div className="mt-8 overflow-hidden prose bg-white rounded-lg shadow lg:prose-xl">
-    <div className="px-4 py-5 border-b border-gray-200 sm:px-6">
+  <div className='mt-8 overflow-hidden prose bg-white rounded-lg shadow lg:prose-xl'>
+    <div className='px-4 py-5 border-b border-gray-200 sm:px-6'>
       Elektroauto-Vermietung
     </div>
     <div>
-      <div className="px-4 py-5 sm:p-6">
-        <ul className="font-sans text-sm text-gray-500 list-inside ">
+      <div className='px-4 py-5 sm:p-6'>
+        <ul className='font-sans text-sm text-gray-500 list-inside '>
           <li>
             Ersetzten der bisherigen Wordpress Website durch ein neues,
             mobiloptimiert Design mit GatsbyJS (JavaScript, HTML5, CSS3,
@@ -118,14 +118,14 @@ const Projekt1 = () => (
       </div>
     </div>
   </div>
-);
+)
 const Projekt2 = () => (
-  <div className="mt-8 overflow-hidden prose bg-white rounded-lg shadow lg:prose-xl">
-    <div className="px-4 py-5 border-b border-gray-200 sm:px-6">
+  <div className='mt-8 overflow-hidden prose bg-white rounded-lg shadow lg:prose-xl'>
+    <div className='px-4 py-5 border-b border-gray-200 sm:px-6'>
       Unternehmensberatung
     </div>
-    <div className="px-4 py-5 sm:p-6">
-      <ul className="font-sans text-sm text-gray-500 list-inside ">
+    <div className='px-4 py-5 sm:p-6'>
+      <ul className='font-sans text-sm text-gray-500 list-inside '>
         <li>
           Ersetzten der bisherigen Joomla Website durch ein neues, mobil
           optimiert Design mit GatsbyJS (JavaScript, HTML5, CSS3, ReactJS) und
@@ -142,27 +142,27 @@ const Projekt2 = () => (
       </ul>
     </div>
   </div>
-);
+)
 const Projekt3 = () => (
-  <div className="mt-8 overflow-hidden prose bg-white rounded-lg shadow lg:prose-xl">
-    <div className="px-4 py-5 border-b border-gray-200 sm:px-6">
+  <div className='mt-8 overflow-hidden prose bg-white rounded-lg shadow lg:prose-xl'>
+    <div className='px-4 py-5 border-b border-gray-200 sm:px-6'>
       seo-freelancerin.com
     </div>
-    <div className="px-4 py-5 sm:p-6">
-      <ul className="font-sans text-sm text-gray-500 list-inside ">
+    <div className='px-4 py-5 sm:p-6'>
+      <ul className='font-sans text-sm text-gray-500 list-inside '>
         <li>Umsetzung, Design, Onpage Optimierungen</li>
       </ul>
     </div>
   </div>
-);
+)
 
 const Projekt4 = () => (
-  <div className="mt-8 overflow-hidden prose bg-white rounded-lg shadow lg:prose-xl">
-    <div className="px-4 py-5 border-b border-gray-200 sm:px-6">
+  <div className='mt-8 overflow-hidden prose bg-white rounded-lg shadow lg:prose-xl'>
+    <div className='px-4 py-5 border-b border-gray-200 sm:px-6'>
       Ferienwohnungen
     </div>
-    <div className="px-4 py-5 sm:p-6">
-      <ul className="font-sans text-sm text-gray-500 list-inside ">
+    <div className='px-4 py-5 sm:p-6'>
+      <ul className='font-sans text-sm text-gray-500 list-inside '>
         <li>
           Umsetzung einer Website mit Wordpress zur Vermietung von
           Ferienwohnungen an Zeitarbeiter
@@ -181,16 +181,16 @@ const Projekt4 = () => (
       </ul>
     </div>
   </div>
-);
+)
 
 const ProjektePage = () => (
   <Layout>
-    <h1 className="text-4xl font-bold leading-7 text-gray-900 font-Inter sm:text-3xl sm:leading-9 sm:truncate">
+    <h1 className='text-4xl font-bold leading-7 text-gray-900 font-Inter sm:text-3xl sm:leading-9 sm:truncate'>
       Auszug meiner Projekte
     </h1>
     <Projekte />
     <Techs />
   </Layout>
-);
+)
 
-export default ProjektePage;
+export default ProjektePage
