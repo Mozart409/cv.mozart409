@@ -1,23 +1,20 @@
-import '../css/style.css'
-import './../../public/fonts/fonts.css'
-import Head from 'next/head'
+import "../css/style.css";
+import "./../../public/fonts/fonts.css";
+import Head from "next/head";
 
-
-export default function MyApp ({ Component, pageProps }) {
-  const TIMEOUT = 400
+export default function MyApp({ Component, pageProps }) {
+  const TIMEOUT = 400;
   return (
     <div>
-    
-        <Head>
-          <meta
-            name='viewport'
-            content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover'
-          />
-        </Head>
-        <Component {...pageProps} />
-    
+      <Head>
+        <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover"
+        />
+      </Head>
+
+      <Component {...pageProps} />
       <style jsx global>{`
-     
         strong,
         h1,
         h1 > *,
@@ -30,7 +27,7 @@ export default function MyApp ({ Component, pageProps }) {
         h5 > *,
         h6,
         h6 > * {
-          font-family: 'IBM Plex Sans';
+          font-family: "IBM Plex Sans";
           font-display: auto;
         }
         p,
@@ -41,10 +38,10 @@ export default function MyApp ({ Component, pageProps }) {
         pre > *,
         code,
         code > * {
-          font-family: 'IBM Plex Mono';
+          font-family: "IBM Plex Mono";
           font-display: auto;
         }
       `}</style>
     </div>
-  )
+  );
 }
