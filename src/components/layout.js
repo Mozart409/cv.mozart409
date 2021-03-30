@@ -121,6 +121,22 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
                     <p className="text-sm font-medium leading-5 text-white">
                       &copy; {new Date().getFullYear()} Amadeus Mader
                     </p>
+                    <a
+                      href="http://mozart409.space/impressum"
+                      target="_blank"
+                      rel="norel noreferrer"
+                      className="text-center text-base text-gray-400"
+                    >
+                      Impressum
+                    </a>{' '}
+                    <a
+                      href="http://mozart409.space/datenschutz"
+                      target="_blank"
+                      rel="norel noreferrer"
+                      className="text-center text-base text-gray-400"
+                    >
+                      Datenschutz
+                    </a>
                   </div>
                 </div>
               </a>
