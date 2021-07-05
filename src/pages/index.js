@@ -1,11 +1,12 @@
-import moment from 'moment'
+import dayjs from 'dayjs'
 import Link from 'next/link'
 
 import Layout from '../components/layout'
 import { useEffect, useState } from 'react'
 
 const BeginningCard = () => {
-  const myAge = moment().diff('1996-10-24', 'years', false)
+  const myAge2 = moment().diff('1996-10-24', 'years', false)
+  const myAge = dayjs().diff('1996-10-24', 'years', false)
   const [Location, setLocation] = useState(null)
 
   useEffect(() => {
@@ -17,26 +18,26 @@ const BeginningCard = () => {
     fetchGitHubData()
   }, [])
   return (
-    <div className='mt-8'>
-      <div className='py-5 px-4 bg-white border-b border-gray-200 shadow sm:px-6'>
-        <h2 className='text-lg font-medium leading-6 text-gray-900'>
+    <div className="mt-8">
+      <div className="py-5 px-4 bg-white border-b border-gray-200 shadow sm:px-6">
+        <h2 className="text-lg font-medium leading-6 text-gray-900">
           Meine Anfänge damals
         </h2>
       </div>
-      <div className='overflow-hidden bg-white shadow sm:rounded-b-md'>
+      <div className="overflow-hidden bg-white shadow sm:rounded-b-md">
         <ul>
           <li>
-            <div className='block transition duration-150 ease-in-out hover:bg-gray-50 focus:bg-gray-50 focus:outline-none'>
-              <div className='py-4 px-4 sm:px-6'>
+            <div className="block transition duration-150 ease-in-out hover:bg-gray-50 focus:bg-gray-50 focus:outline-none">
+              <div className="py-4 px-4 sm:px-6">
                 <div>
-                  <p className='mt-2 font-sans text-sm leading-5 text-gray-500 sm:mt-0'>
+                  <p className="mt-2 font-sans text-sm leading-5 text-gray-500 sm:mt-0">
                     Herzlich willkommen auf meinem digitalen Lebenslauf. Ich bin
                     ich {myAge} und lebe in {Location}. In meiner Jugend hat mir
                     meine Mutter das Programmieren mit{' '}
                     <a
-                      href='https://docs.microsoft.com/de-de/dotnet/visual-basic/'
-                      target='_blank'
-                      rel='noopener noreferrer'
+                      href="https://docs.microsoft.com/de-de/dotnet/visual-basic/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Visual Basic
                     </a>{' '}
@@ -47,7 +48,7 @@ const BeginningCard = () => {
                     IP Adresse lokal und im Netz abfragt zu entwerfen.
                   </p>{' '}
                   <br />
-                  <p className='mt-2 font-sans text-sm leading-5 text-gray-500 sm:mt-0'>
+                  <p className="mt-2 font-sans text-sm leading-5 text-gray-500 sm:mt-0">
                     Dies mündete dann darin, dass ich in der achten Klasse meine
                     Informatik Lehrerin fragte, ob ich nicht meiner Klasse
                     Visual Basic beibringen könnte. Sie stimmte zu und ich
@@ -72,19 +73,19 @@ const BeginningCard = () => {
 
 const RecentCard = () => {
   return (
-    <div className='mt-8'>
-      <div className='py-5 px-4 bg-white border-b border-gray-200 shadow sm:px-6'>
-        <h2 className='text-lg font-medium leading-6 text-gray-900'>
+    <div className="mt-8">
+      <div className="py-5 px-4 bg-white border-b border-gray-200 shadow sm:px-6">
+        <h2 className="text-lg font-medium leading-6 text-gray-900">
           Meine Erfahrungen heute
         </h2>
       </div>
-      <div className='overflow-hidden bg-white shadow sm:rounded-b-md'>
+      <div className="overflow-hidden bg-white shadow sm:rounded-b-md">
         <ul>
           <li>
-            <div className='block transition duration-150 ease-in-out hover:bg-gray-50 focus:bg-gray-50 focus:outline-none'>
-              <div className='py-4 px-4 sm:px-6'>
+            <div className="block transition duration-150 ease-in-out hover:bg-gray-50 focus:bg-gray-50 focus:outline-none">
+              <div className="py-4 px-4 sm:px-6">
                 <div>
-                  <p className='mt-2 font-sans text-sm leading-5 text-gray-500 sm:mt-0'>
+                  <p className="mt-2 font-sans text-sm leading-5 text-gray-500 sm:mt-0">
                     Mein Spezialgebiet sind blitzschnelle SEO optimierte
                     Webseiten, die ich in bestehende Systeme und Prozesse
                     integrieren kann. Dadurch bleibt die gewohnte Umgebung für
@@ -124,16 +125,16 @@ const RecentCard = () => {
 
 const StackedList = () => (
   <div>
-    <ul className='grid grid-cols-1 gap-6 px-4 pt-6 sm:grid-cols-2 sm:px-6 sm:pt-8 lg:grid-cols-3 lg:px-8 lg:pt-12'>
-      <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
-          <div className='flex-1'>
-            <div className='flex items-center space-x-3'>
-              <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
+    <ul className="grid grid-cols-1 gap-6 px-4 pt-6 sm:grid-cols-2 sm:px-6 sm:pt-8 lg:grid-cols-3 lg:px-8 lg:pt-12">
+      <li className="col-span-1 bg-white rounded-lg shadow">
+        <div className="flex justify-between items-center p-6 space-x-6 w-full">
+          <div className="flex-1">
+            <div className="flex items-center space-x-3">
+              <h2 className="text-sm font-medium leading-5 text-gray-900 truncate">
                 Branchen
               </h2>
             </div>
-            <p className='mt-1 text-sm leading-5 text-gray-500 break-words'>
+            <p className="mt-1 text-sm leading-5 text-gray-500 break-words">
               Elektroauto-Vermietung, Ferienwohnungen, professionelle
               Audiosysteme und Freelancern
             </p>
@@ -141,42 +142,42 @@ const StackedList = () => (
         </div>
       </li>
 
-      <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
-          <div className='flex-1'>
-            <div className='flex items-center space-x-3'>
-              <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
+      <li className="col-span-1 bg-white rounded-lg shadow">
+        <div className="flex justify-between items-center p-6 space-x-6 w-full">
+          <div className="flex-1">
+            <div className="flex items-center space-x-3">
+              <h2 className="text-sm font-medium leading-5 text-gray-900 truncate">
                 Programmier Kenntnisse zu
               </h2>
             </div>
-            <p className='mt-1 text-sm leading-5 text-gray-500 break-words'>
+            <p className="mt-1 text-sm leading-5 text-gray-500 break-words">
               JavaScript, React, GatsbyJS, NextJs, HTML5, CSS3, GraphQL
             </p>
           </div>
         </div>
       </li>
 
-      <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
-          <div className='flex-1'>
-            <div className='flex items-center space-x-3'>
-              <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
+      <li className="col-span-1 bg-white rounded-lg shadow">
+        <div className="flex justify-between items-center p-6 space-x-6 w-full">
+          <div className="flex-1">
+            <div className="flex items-center space-x-3">
+              <h2 className="text-sm font-medium leading-5 text-gray-900 truncate">
                 CMS Systemen
               </h2>
             </div>
-            <p className='mt-1 text-sm leading-5 text-gray-500 break-words'>
+            <p className="mt-1 text-sm leading-5 text-gray-500 break-words">
               <a
-                href='https://de.wordpress.com/'
-                rel='noopener noreferrer'
-                target='_blank'
+                href="https://de.wordpress.com/"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 Wordpress
               </a>
               ,{' '}
               <a
-                href='https://datocms.com'
-                rel='noopener noreferrer'
-                target='_blank'
+                href="https://datocms.com"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 DatoCMS
               </a>{' '}
@@ -186,28 +187,28 @@ const StackedList = () => (
         </div>
       </li>
 
-      <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
-          <div className='flex-1'>
-            <div className='flex items-center space-x-3'>
-              <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
+      <li className="col-span-1 bg-white rounded-lg shadow">
+        <div className="flex justify-between items-center p-6 space-x-6 w-full">
+          <div className="flex-1">
+            <div className="flex items-center space-x-3">
+              <h2 className="text-sm font-medium leading-5 text-gray-900 truncate">
                 Methoden
               </h2>
             </div>
-            <p className='mt-1 text-sm leading-5 text-gray-500 break-words'>
+            <p className="mt-1 text-sm leading-5 text-gray-500 break-words">
               Clean Code und Test Driven Development (
               <a
-                rel='noopener noreferrer'
-                target='_blank'
-                href='https://cypress.io/'
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://cypress.io/"
               >
                 Cypress
               </a>
               , endliche Zustandsmaschinen{' '}
               <a
-                href='https://xstate.js.org'
-                rel='noopener noreferrer'
-                target='_blank'
+                href="https://xstate.js.org"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 xstate
               </a>
@@ -217,28 +218,28 @@ const StackedList = () => (
         </div>
       </li>
 
-      <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
-          <div className='flex-1'>
-            <div className='flex items-center space-x-3'>
-              <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
+      <li className="col-span-1 bg-white rounded-lg shadow">
+        <div className="flex justify-between items-center p-6 space-x-6 w-full">
+          <div className="flex-1">
+            <div className="flex items-center space-x-3">
+              <h2 className="text-sm font-medium leading-5 text-gray-900 truncate">
                 Continuous Integration / Deployment
               </h2>
             </div>
-            <p className='mt-1 text-sm leading-5 text-gray-500 break-words'>
+            <p className="mt-1 text-sm leading-5 text-gray-500 break-words">
               mit Git und (
               <a
-                href='https://travis-ci.org/'
-                rel='noopener noreferrer'
-                target='_blank'
+                href="https://travis-ci.org/"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 Travis-ci
               </a>
               ,{' '}
               <a
-                href='https://circleci.com/'
-                rel='noopener noreferrer'
-                target='_blank'
+                href="https://circleci.com/"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 CircleCI
               </a>
@@ -248,82 +249,82 @@ const StackedList = () => (
         </div>
       </li>
 
-      <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
-          <div className='flex-1'>
-            <div className='flex items-center space-x-3'>
-              <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
+      <li className="col-span-1 bg-white rounded-lg shadow">
+        <div className="flex justify-between items-center p-6 space-x-6 w-full">
+          <div className="flex-1">
+            <div className="flex items-center space-x-3">
+              <h2 className="text-sm font-medium leading-5 text-gray-900 truncate">
                 Erfahrung mit
               </h2>
             </div>
-            <p className='mt-1 text-sm leading-5 text-gray-500 break-words'>
+            <p className="mt-1 text-sm leading-5 text-gray-500 break-words">
               REST APIs und Serverless Functions
             </p>
           </div>
         </div>
       </li>
     </ul>
-    <div className='px-4 pt-6 border-b border-gray-400 sm:px-6 sm:pt-8 lg:px-8 lg:pt-12'></div>
-    <ul className='grid grid-cols-1 gap-6 px-4 pt-6 sm:grid-cols-2 sm:px-6 sm:pt-8 lg:grid-cols-3 lg:px-8 lg:pt-12'>
-      <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
-          <div className='flex-1'>
-            <div className='flex items-center space-x-3'>
-              <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
+    <div className="px-4 pt-6 border-b border-gray-400 sm:px-6 sm:pt-8 lg:px-8 lg:pt-12"></div>
+    <ul className="grid grid-cols-1 gap-6 px-4 pt-6 sm:grid-cols-2 sm:px-6 sm:pt-8 lg:grid-cols-3 lg:px-8 lg:pt-12">
+      <li className="col-span-1 bg-white rounded-lg shadow">
+        <div className="flex justify-between items-center p-6 space-x-6 w-full">
+          <div className="flex-1">
+            <div className="flex items-center space-x-3">
+              <h2 className="text-sm font-medium leading-5 text-gray-900 truncate">
                 Suchmaschinen-Optimierung
               </h2>
             </div>
-            <p className='mt-1 text-sm leading-5 text-gray-500 break-words'>
+            <p className="mt-1 text-sm leading-5 text-gray-500 break-words">
               mehrere Projekte auf Seite 1 in die 5 Top gebracht
             </p>
           </div>
         </div>
       </li>
 
-      <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
-          <div className='flex-1'>
-            <div className='flex items-center space-x-3'>
-              <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
+      <li className="col-span-1 bg-white rounded-lg shadow">
+        <div className="flex justify-between items-center p-6 space-x-6 w-full">
+          <div className="flex-1">
+            <div className="flex items-center space-x-3">
+              <h2 className="text-sm font-medium leading-5 text-gray-900 truncate">
                 Sicher im Umgang
               </h2>
             </div>
-            <p className='mt-1 text-sm leading-5 text-gray-500 break-words'>
+            <p className="mt-1 text-sm leading-5 text-gray-500 break-words">
               mit Kunden und Projektplanung
             </p>
           </div>
         </div>
       </li>
 
-      <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
-          <div className='flex-1'>
-            <div className='flex items-center space-x-3'>
-              <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
+      <li className="col-span-1 bg-white rounded-lg shadow">
+        <div className="flex justify-between items-center p-6 space-x-6 w-full">
+          <div className="flex-1">
+            <div className="flex items-center space-x-3">
+              <h2 className="text-sm font-medium leading-5 text-gray-900 truncate">
                 Praxiserfahrung im Einsatz
               </h2>
             </div>
-            <p className='mt-1 text-sm leading-5 text-gray-500 break-words'>
+            <p className="mt-1 text-sm leading-5 text-gray-500 break-words">
               agiler Methoden: Scrum, Kanban, Jira und Confluence von Atlassian
             </p>
           </div>
         </div>
       </li>
 
-      <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
-          <div className='flex-1'>
-            <div className='flex items-center space-x-3'>
-              <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
+      <li className="col-span-1 bg-white rounded-lg shadow">
+        <div className="flex justify-between items-center p-6 space-x-6 w-full">
+          <div className="flex-1">
+            <div className="flex items-center space-x-3">
+              <h2 className="text-sm font-medium leading-5 text-gray-900 truncate">
                 Fließende Deutsch- und Englischkenntnisse
               </h2>
             </div>
-            <p className='mt-1 text-sm leading-5 text-gray-500 break-words'>
+            <p className="mt-1 text-sm leading-5 text-gray-500 break-words">
               „
               <a
-                href='https://www.cambridgeenglish.org/exams-and-tests/preliminary/'
-                rel='noopener noreferrer'
-                target='_blank'
+                href="https://www.cambridgeenglish.org/exams-and-tests/preliminary/"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 Preliminary Englisch Test
               </a>
@@ -338,7 +339,7 @@ const StackedList = () => (
 
 const index = () => (
   <Layout>
-    <h1 className='text-2xl font-bold leading-7 text-gray-900 sm:leading-9 md:text-4xl font-Inter sm:truncate'>
+    <h1 className="text-2xl font-bold leading-7 text-gray-900 sm:leading-9 md:text-4xl font-Inter sm:truncate">
       Amadeus Mader - Meine Stärken
     </h1>
     <StackedList />

@@ -1,8 +1,9 @@
-import Link from 'next/link'
+import Image from 'next/image'
 import Head from 'next/head'
 import MobileMenu from './mobileMenu'
 import ActiveLink from './ActiveLink'
-import { FeedbackFish } from '@feedback-fish/react'
+
+import Tisch from 'public/tisch.png'
 
 const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
   <div>
@@ -19,19 +20,10 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
           <div className="flex flex-col w-64 bg-gray-900 border-r border-white">
             <div className="flex overflow-y-auto flex-col flex-1 pt-5 pb-4 h-0">
               <div className="flex items-center px-4">
-                <img
-                  className="w-64 rounded-md"
-                  src="/tisch.png"
-                  alt="Amadeus"
-                />
+                <Image className="w-64 rounded-md" src={Tisch} alt="Amadeus" />
               </div>
 
               <nav className="flex-1 px-2 mt-5 text-white">
-                <FeedbackFish projectId="6784690b19d382">
-                  <button className="flex items-center py-2 px-2 mt-1 text-sm font-medium leading-5 text-white rounded-md transition duration-150 ease-in-out hover:text-gray-800 hover:bg-gray-100 focus:text-gray-800 focus:bg-white focus:outline-none group">
-                    Feedback
-                  </button>
-                </FeedbackFish>
                 <ActiveLink activeClassName="text-gray-800 bg-white" href="/">
                   <a className="flex items-center py-2 px-2 mt-1 text-sm font-medium leading-5 text-white rounded-md transition duration-150 ease-in-out hover:text-gray-800 hover:bg-gray-100 focus:text-gray-800 focus:bg-white focus:outline-none group">
                     <svg
@@ -155,7 +147,7 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
         </div>
       </div>
     </div>
-    <footer className="bg-white">
+    <footer className="bg-white md:hidden">
       <div className="py-12 px-4 mx-auto max-w-7xl sm:px-6 md:flex md:justify-between md:items-center lg:px-8">
         <div className="flex justify-center space-x-6 md:order-2">
           <a href="#" className="text-gray-400 hover:text-gray-500">
