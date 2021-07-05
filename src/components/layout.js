@@ -11,13 +11,13 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
     </Head>
 
     <div className="flex flex-col min-h-screen font-sans text-gray-900">
-      <div className="flex h-screen overflow-hidden bg-gray-100">
+      <div className="flex overflow-hidden h-screen bg-gray-100">
         <div className="flex flex-shrink-0 lg:hidden">
           <MobileMenu />
         </div>
-        <div className="flex-shrink-0 hidden lg:flex">
+        <div className="hidden flex-shrink-0 lg:flex">
           <div className="flex flex-col w-64 bg-gray-900 border-r border-white">
-            <div className="flex flex-col flex-1 h-0 pt-5 pb-4 overflow-y-auto">
+            <div className="flex overflow-y-auto flex-col flex-1 pt-5 pb-4 h-0">
               <div className="flex items-center px-4">
                 <img
                   className="w-64 rounded-md"
@@ -28,14 +28,14 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
 
               <nav className="flex-1 px-2 mt-5 text-white">
                 <FeedbackFish projectId="6784690b19d382">
-                  <button className="flex items-center px-2 py-2 mt-1 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out rounded-md group hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white">
+                  <button className="flex items-center py-2 px-2 mt-1 text-sm font-medium leading-5 text-white rounded-md transition duration-150 ease-in-out hover:text-gray-800 hover:bg-gray-100 focus:text-gray-800 focus:bg-white focus:outline-none group">
                     Feedback
                   </button>
                 </FeedbackFish>
                 <ActiveLink activeClassName="text-gray-800 bg-white" href="/">
-                  <a className="flex items-center px-2 py-2 mt-1 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out rounded-md group hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white">
+                  <a className="flex items-center py-2 px-2 mt-1 text-sm font-medium leading-5 text-white rounded-md transition duration-150 ease-in-out hover:text-gray-800 hover:bg-gray-100 focus:text-gray-800 focus:bg-white focus:outline-none group">
                     <svg
-                      className="w-6 h-6 mr-3 transition duration-150 ease-in-out group-hover:text-gray-800 group-focus:text-gray-800"
+                      className="mr-3 w-6 h-6 transition duration-150 ease-in-out group-hover:text-gray-800 group-focus:text-gray-800"
                       stroke="currentColor"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -52,9 +52,9 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
                 </ActiveLink>
 
                 <ActiveLink activeClassName="text-gray-800 bg-white" href="/cv">
-                  <a className="flex items-center px-2 py-2 mt-1 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out rounded-md group hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white">
+                  <a className="flex items-center py-2 px-2 mt-1 text-sm font-medium leading-5 text-white rounded-md transition duration-150 ease-in-out hover:text-gray-800 hover:bg-gray-100 focus:text-gray-800 focus:bg-white focus:outline-none group">
                     <svg
-                      className="w-6 h-6 mr-3 transition duration-150 ease-in-out group-hover:text-gray-800 group-focus:text-gray-800"
+                      className="mr-3 w-6 h-6 transition duration-150 ease-in-out group-hover:text-gray-800 group-focus:text-gray-800"
                       stroke="currentColor"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -74,9 +74,9 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
                   activeClassName="text-gray-800 bg-white"
                   href="/projekte"
                 >
-                  <a className="flex items-center px-2 py-2 mt-1 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out rounded-md group hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white">
+                  <a className="flex items-center py-2 px-2 mt-1 text-sm font-medium leading-5 text-white rounded-md transition duration-150 ease-in-out hover:text-gray-800 hover:bg-gray-100 focus:text-gray-800 focus:bg-white focus:outline-none group">
                     <svg
-                      className="w-6 h-6 mr-3 transition duration-150 ease-in-out group-hover:text-gray-800 group-focus:text-gray-800"
+                      className="mr-3 w-6 h-6 transition duration-150 ease-in-out group-hover:text-gray-800 group-focus:text-gray-800"
                       stroke="currentColor"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -95,9 +95,9 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
                   activeClassName="text-gray-800 bg-white"
                   href="/contact"
                 >
-                  <a className="flex items-center px-2 py-2 mt-1 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out rounded-md group hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:text-gray-800 focus:bg-white">
+                  <a className="flex items-center py-2 px-2 mt-1 text-sm font-medium leading-5 text-white rounded-md transition duration-150 ease-in-out hover:text-gray-800 hover:bg-gray-100 focus:text-gray-800 focus:bg-white focus:outline-none group">
                     <svg
-                      className="w-6 h-6 mr-3 transition duration-150 ease-in-out group-hover:text-gray-800 group-focus:text-gray-800"
+                      className="mr-3 w-6 h-6 transition duration-150 ease-in-out group-hover:text-gray-800 group-focus:text-gray-800"
                       stroke="currentColor"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -115,7 +115,7 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
               </nav>
             </div>
             <div className="flex flex-shrink-0 p-4">
-              <a href="#" className="flex-shrink-0 block w-full group">
+              <a href="#" className="block flex-shrink-0 w-full group">
                 <div className="flex items-center">
                   <div className="ml-3">
                     <p className="text-sm font-medium leading-5 text-white">
@@ -125,7 +125,7 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
                       href="http://mozart409.space/impressum"
                       target="_blank"
                       rel="norel noreferrer"
-                      className="text-center text-base text-gray-400"
+                      className="text-base text-center text-gray-400"
                     >
                       Impressum
                     </a>{' '}
@@ -133,7 +133,7 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
                       href="http://mozart409.space/datenschutz"
                       target="_blank"
                       rel="norel noreferrer"
-                      className="text-center text-base text-gray-400"
+                      className="text-base text-center text-gray-400"
                     >
                       Datenschutz
                     </a>
@@ -143,12 +143,12 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
             </div>
           </div>
         </div>
-        <div className="flex flex-col flex-1 w-0 overflow-hidden">
+        <div className="flex overflow-hidden flex-col flex-1 w-0">
           <main
-            className="relative z-0 flex-1 pt-2 pb-6 overflow-y-auto focus:outline-none md:py-6"
+            className="overflow-y-auto relative z-0 flex-1 pt-2 pb-6 md:py-6 focus:outline-none"
             tabIndex="0"
           >
-            <div className="px-4 mx-auto max-w-7xl font-Inter sm:px-6 md:px-8">
+            <div className="px-4 mx-auto max-w-7xl sm:px-6 md:px-8 font-Inter">
               {children}
             </div>
           </main>
@@ -156,12 +156,12 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
       </div>
     </div>
     <footer className="bg-white">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+      <div className="py-12 px-4 mx-auto max-w-7xl sm:px-6 md:flex md:justify-between md:items-center lg:px-8">
         <div className="flex justify-center space-x-6 md:order-2">
           <a href="#" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">Twitter</span>
             <svg
-              className="h-6 w-6"
+              className="w-6 h-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -173,7 +173,7 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
           <a href="#" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">GitHub</span>
             <svg
-              className="h-6 w-6"
+              className="w-6 h-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -186,19 +186,19 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
             </svg>
           </a>
         </div>
-        <div className="mt-8 md:mt-0 md:order-1">
-          <p className="text-center text-base text-gray-400">
+        <div className="mt-8 md:order-1 md:mt-0">
+          <p className="text-base text-center text-gray-400">
             &copy; {new Date().getFullYear()} Amadeus Mader. All rights
             reserved.
           </p>
         </div>
       </div>
-      <div className="text-center text-base text-gray-400 space-x-4">
+      <div className="space-x-4 text-base text-center text-gray-400">
         <a
           href="http://mozart409.space/impressum"
           target="_blank"
           rel="norel noreferrer"
-          className="text-center text-base text-gray-400"
+          className="text-base text-center text-gray-400"
         >
           Impressum
         </a>
@@ -206,7 +206,7 @@ const Layout = ({ children, title = 'CV | Amadeus Mader' }) => (
           href="http://mozart409.space/datenschutz"
           target="_blank"
           rel="norel noreferrer"
-          className="text-center text-base text-gray-400"
+          className="text-base text-center text-gray-400"
         >
           Datenschutz
         </a>

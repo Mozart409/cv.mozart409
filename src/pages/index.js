@@ -18,7 +18,7 @@ const BeginningCard = () => {
   }, [])
   return (
     <div className='mt-8'>
-      <div className='px-4 py-5 bg-white border-b border-gray-200 shadow sm:px-6'>
+      <div className='py-5 px-4 bg-white border-b border-gray-200 shadow sm:px-6'>
         <h2 className='text-lg font-medium leading-6 text-gray-900'>
           Meine Anfänge damals
         </h2>
@@ -26,10 +26,10 @@ const BeginningCard = () => {
       <div className='overflow-hidden bg-white shadow sm:rounded-b-md'>
         <ul>
           <li>
-            <div className='block transition duration-150 ease-in-out hover:bg-gray-50 focus:outline-none focus:bg-gray-50'>
-              <div className='px-4 py-4 sm:px-6'>
+            <div className='block transition duration-150 ease-in-out hover:bg-gray-50 focus:bg-gray-50 focus:outline-none'>
+              <div className='py-4 px-4 sm:px-6'>
                 <div>
-                  <p className='mt-2 font-sans text-sm leading-5 text-gray-500 sm:mt-0 '>
+                  <p className='mt-2 font-sans text-sm leading-5 text-gray-500 sm:mt-0'>
                     Herzlich willkommen auf meinem digitalen Lebenslauf. Ich bin
                     ich {myAge} und lebe in {Location}. In meiner Jugend hat mir
                     meine Mutter das Programmieren mit{' '}
@@ -47,7 +47,7 @@ const BeginningCard = () => {
                     IP Adresse lokal und im Netz abfragt zu entwerfen.
                   </p>{' '}
                   <br />
-                  <p className='mt-2 font-sans text-sm leading-5 text-gray-500 sm:mt-0 '>
+                  <p className='mt-2 font-sans text-sm leading-5 text-gray-500 sm:mt-0'>
                     Dies mündete dann darin, dass ich in der achten Klasse meine
                     Informatik Lehrerin fragte, ob ich nicht meiner Klasse
                     Visual Basic beibringen könnte. Sie stimmte zu und ich
@@ -73,7 +73,7 @@ const BeginningCard = () => {
 const RecentCard = () => {
   return (
     <div className='mt-8'>
-      <div className='px-4 py-5 bg-white border-b border-gray-200 shadow sm:px-6'>
+      <div className='py-5 px-4 bg-white border-b border-gray-200 shadow sm:px-6'>
         <h2 className='text-lg font-medium leading-6 text-gray-900'>
           Meine Erfahrungen heute
         </h2>
@@ -81,8 +81,8 @@ const RecentCard = () => {
       <div className='overflow-hidden bg-white shadow sm:rounded-b-md'>
         <ul>
           <li>
-            <div className='block transition duration-150 ease-in-out hover:bg-gray-50 focus:outline-none focus:bg-gray-50'>
-              <div className='px-4 py-4 sm:px-6'>
+            <div className='block transition duration-150 ease-in-out hover:bg-gray-50 focus:bg-gray-50 focus:outline-none'>
+              <div className='py-4 px-4 sm:px-6'>
                 <div>
                   <p className='mt-2 font-sans text-sm leading-5 text-gray-500 sm:mt-0'>
                     Mein Spezialgebiet sind blitzschnelle SEO optimierte
@@ -108,7 +108,7 @@ const RecentCard = () => {
                     übergebe Ihnen das Projekt. Brauchen Sie weiterhin
                     Unterstützung stehe Ich dann auch gerne zur Verfügung.
                     {/* <br />
-                  <p className='mt-2 font-sans text-sm leading-5 text-gray-500 sm:mt-0 '>
+                  <p className='mt-2 font-sans text-sm leading-5 text-gray-500 sm:mt-0'>
                  
                   </p> */}
                   </p>
@@ -124,10 +124,10 @@ const RecentCard = () => {
 
 const StackedList = () => (
   <div>
-    <ul className='grid grid-cols-1 gap-6 px-4 pt-6 sm:grid-cols-2 lg:grid-cols-3 sm:pt-8 sm:px-6 lg:pt-12 lg:px-8'>
+    <ul className='grid grid-cols-1 gap-6 px-4 pt-6 sm:grid-cols-2 sm:px-6 sm:pt-8 lg:grid-cols-3 lg:px-8 lg:pt-12'>
       <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex items-center justify-between w-full p-6 space-x-6'>
-          <div className='flex-1 '>
+        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
+          <div className='flex-1'>
             <div className='flex items-center space-x-3'>
               <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
                 Branchen
@@ -142,8 +142,8 @@ const StackedList = () => (
       </li>
 
       <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex items-center justify-between w-full p-6 space-x-6'>
-          <div className='flex-1 '>
+        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
+          <div className='flex-1'>
             <div className='flex items-center space-x-3'>
               <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
                 Programmier Kenntnisse zu
@@ -157,8 +157,8 @@ const StackedList = () => (
       </li>
 
       <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex items-center justify-between w-full p-6 space-x-6'>
-          <div className='flex-1 '>
+        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
+          <div className='flex-1'>
             <div className='flex items-center space-x-3'>
               <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
                 CMS Systemen
@@ -187,8 +187,8 @@ const StackedList = () => (
       </li>
 
       <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex items-center justify-between w-full p-6 space-x-6'>
-          <div className='flex-1 '>
+        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
+          <div className='flex-1'>
             <div className='flex items-center space-x-3'>
               <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
                 Methoden
@@ -218,8 +218,8 @@ const StackedList = () => (
       </li>
 
       <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex items-center justify-between w-full p-6 space-x-6'>
-          <div className='flex-1 '>
+        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
+          <div className='flex-1'>
             <div className='flex items-center space-x-3'>
               <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
                 Continuous Integration / Deployment
@@ -249,8 +249,8 @@ const StackedList = () => (
       </li>
 
       <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex items-center justify-between w-full p-6 space-x-6'>
-          <div className='flex-1 '>
+        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
+          <div className='flex-1'>
             <div className='flex items-center space-x-3'>
               <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
                 Erfahrung mit
@@ -263,11 +263,11 @@ const StackedList = () => (
         </div>
       </li>
     </ul>
-    <div className='px-4 pt-6 border-b border-gray-400 sm:pt-8 sm:px-6 lg:pt-12 lg:px-8'></div>
-    <ul className='grid grid-cols-1 gap-6 px-4 pt-6 sm:grid-cols-2 lg:grid-cols-3  sm:pt-8 sm:px-6 lg:pt-12 lg:px-8'>
+    <div className='px-4 pt-6 border-b border-gray-400 sm:px-6 sm:pt-8 lg:px-8 lg:pt-12'></div>
+    <ul className='grid grid-cols-1 gap-6 px-4 pt-6 sm:grid-cols-2 sm:px-6 sm:pt-8 lg:grid-cols-3 lg:px-8 lg:pt-12'>
       <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex items-center justify-between w-full p-6 space-x-6'>
-          <div className='flex-1 '>
+        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
+          <div className='flex-1'>
             <div className='flex items-center space-x-3'>
               <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
                 Suchmaschinen-Optimierung
@@ -281,8 +281,8 @@ const StackedList = () => (
       </li>
 
       <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex items-center justify-between w-full p-6 space-x-6'>
-          <div className='flex-1 '>
+        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
+          <div className='flex-1'>
             <div className='flex items-center space-x-3'>
               <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
                 Sicher im Umgang
@@ -296,8 +296,8 @@ const StackedList = () => (
       </li>
 
       <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex items-center justify-between w-full p-6 space-x-6'>
-          <div className='flex-1 '>
+        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
+          <div className='flex-1'>
             <div className='flex items-center space-x-3'>
               <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
                 Praxiserfahrung im Einsatz
@@ -311,8 +311,8 @@ const StackedList = () => (
       </li>
 
       <li className='col-span-1 bg-white rounded-lg shadow'>
-        <div className='flex items-center justify-between w-full p-6 space-x-6'>
-          <div className='flex-1 '>
+        <div className='flex justify-between items-center p-6 space-x-6 w-full'>
+          <div className='flex-1'>
             <div className='flex items-center space-x-3'>
               <h2 className='text-sm font-medium leading-5 text-gray-900 truncate'>
                 Fließende Deutsch- und Englischkenntnisse
@@ -338,7 +338,7 @@ const StackedList = () => (
 
 const index = () => (
   <Layout>
-    <h1 className='text-2xl font-bold leading-7 text-gray-900 font-Inter md:text-4xl sm:leading-9 sm:truncate'>
+    <h1 className='text-2xl font-bold leading-7 text-gray-900 sm:leading-9 md:text-4xl font-Inter sm:truncate'>
       Amadeus Mader - Meine Stärken
     </h1>
     <StackedList />
