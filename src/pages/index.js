@@ -181,7 +181,7 @@ const StackedList = () => (
               >
                 DatoCMS
               </a>{' '}
-              und anderen "Headless CMS" Systemen
+              und anderen &quot;Headless CMS&quot; Systemen
             </p>
           </div>
         </div>
