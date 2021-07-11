@@ -1,27 +1,32 @@
 import dayjs from 'dayjs'
 import Link from 'next/link'
-
+import { useQuery } from 'react-query'
+import { NextPage, GetStaticProps } from 'next'
 import Layout from '../components/layout'
 import { useEffect, useState } from 'react'
+import { fetchGitHub } from 'src/utils/api'
 
 const BeginningCard = () => {
-  const myAge2 = moment().diff('1996-10-24', 'years', false)
   const myAge = dayjs().diff('1996-10-24', 'years', false)
-  const [Location, setLocation] = useState(null)
+  const {
+    isLoading,
+    isError,
+    data: location,
+    error,
+  } = useQuery(['location'], async () => {
+    const response = await fetch('/api/location')
 
-  useEffect(() => {
-    const fetchGitHubData = async () => {
-      const res = await fetch('https://api.github.com/users/mozart409')
-      const data = await res.json()
-      setLocation(data.location)
+    if (!response.ok) {
+      throw new Error('Network response was not ok')
     }
-    fetchGitHubData()
-  }, [])
+
+    return response.json()
+  })
   return (
     <div className="mt-8">
       <div className="py-5 px-4 bg-white border-b border-gray-200 shadow sm:px-6">
         <h2 className="text-lg font-medium leading-6 text-gray-900">
-          Meine Anfänge damals
+          Meine Anfänge
         </h2>
       </div>
       <div className="overflow-hidden bg-white shadow sm:rounded-b-md">
@@ -32,7 +37,7 @@ const BeginningCard = () => {
                 <div>
                   <p className="mt-2 font-sans text-sm leading-5 text-gray-500 sm:mt-0">
                     Herzlich willkommen auf meinem digitalen Lebenslauf. Ich bin
-                    ich {myAge} und lebe in {Location}. In meiner Jugend hat mir
+                    ich {myAge} und lebe in {location}. In meiner Jugend hat mir
                     meine Mutter das Programmieren mit{' '}
                     <a
                       href="https://docs.microsoft.com/de-de/dotnet/visual-basic/"
@@ -337,11 +342,14 @@ const StackedList = () => (
   </div>
 )
 
-const index = () => (
+type IndexProps = {}
+
+const index: NextPage<IndexProps> = () => (
   <Layout>
     <h1 className="text-2xl font-bold leading-7 text-gray-900 sm:leading-9 md:text-4xl font-Inter sm:truncate">
       Amadeus Mader - Meine Stärken
     </h1>
+    <BeginningCard />
     <StackedList />
   </Layout>
 )

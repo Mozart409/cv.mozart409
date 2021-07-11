@@ -34,3 +34,4 @@ yarn-error.log*
 
 public/sw.js
 workbox-*
+.env
